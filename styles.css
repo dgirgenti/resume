@@ -248,16 +248,16 @@ section .school h4 {
 	padding: 0 5px 0 0;
 	text-align: right;
 }
-#skills .rating-1 em { background-color: #999; width: 3em; }
-#skills .rating-2 em { background-color: #888; width: 6em; }
-#skills .rating-3 em { background-color: #777; width: 9em; }
-#skills .rating-4 em { background-color: #666; width: 12em; }
+#skills .rating-1 em { background-color: #000; width: 3em; }
+#skills .rating-2 em { background-color: #0e0e0e; width: 6em; }
+#skills .rating-3 em { background-color: #2a2a2a; width: 9em; }
+#skills .rating-4 em { background-color: #464646; width: 12em; }
 #skills .rating-5 em { background-color: #555; width: 15em; }
-#skills .rating-6 em { background-color: #444; width: 18em; }
-#skills .rating-7 em { background-color: #333; width: 21em; }
-#skills .rating-8 em { background-color: #222; width: 24em; }
-#skills .rating-9 em { background-color: #111; width: 27em; }
-#skills .rating-10 em { background-color: #000;  }
+#skills .rating-6 em { background-color: #717171; width: 18em; }
+#skills .rating-7 em { background-color: #8d8d8d; width: 21em; }
+#skills .rating-8 em { background-color: #9b9b9b; width: 24em; }
+#skills .rating-9 em { background-color: #aaa; width: 27em; }
+#skills .rating-10 em { background-color: #b8b8b8;  }
 
 /*
 	Clearfix
