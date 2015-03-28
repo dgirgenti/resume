@@ -29,9 +29,9 @@
 
             <hgroup>
                 <h1>Dan Girgenti</h1>
-                <h2><a href="mailto:dan.girgenti@gmail.com">dan.girgenti@gmail.com</a></h2>
-                <h2><a href="tel:+1-267-337-3509">(267) 337-3509</a></h2>
-                <h2><a href="https://www.linkedin.com/in/dgirgenti" target="_blank">My LinkedIn</a></h2>
+                <h2><a href="mailto:dan.girgenti@gmail.com" rel="nofollow">dan.girgenti @ gmail.com</a></h2>
+                <h2><a href="tel:+1-267-337-3509" rel="nofollow">(267) 337-3509</a></h2>
+                <h2><a href="https://www.linkedin.com/in/dgirgenti" target="_blank" rel="nofollow">LinkedIn</a> | <a href="https://github.com/dgirgenti" target="_blank">GitHub</a></h2>
             </hgroup>
 
             <nav>
@@ -65,9 +65,19 @@
         </section>
     {% endif %}
 
+    {% if page.other %}
+    <section id="other">
+            <h2>Other</h2>
+            
+            {% for experience in page.other %}
+        {% include experience.html %}
+      {% endfor %}
+        </section>
+    {% endif %}
+
     {% if page.school %}
         <section id="school">
-            <h2>School</h2>
+            <h2>Education</h2>
 
       {% for school in page.school %}
         {% include school.html %}

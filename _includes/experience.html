@@ -3,6 +3,11 @@
 
   {% if experience.title or experience.type or experience.start or experience.end %}
   <dl>
+    {% if experience.status %}
+    <dt>Status</dt>
+    <dd>{{ experience.status }}</dd>
+    {% endif %}
+
     {% if experience.title %}
     <dt>Title</dt>
     <dd>{{ experience.title }}</dd>
@@ -38,6 +43,7 @@
 
 
 {% if experience.projects %}
+<p>Projects:</p>
 {% for project in experience.projects %}
 <section class="project">
     <h4>{% if project.url %}<a href="{{ project.url}}" target="_blank">{% endif %}{{ project.name }}{% if project.url %}</a>{% endif %}</h4>

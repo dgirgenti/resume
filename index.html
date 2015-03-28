@@ -4,30 +4,18 @@ layout: default
 skills:
   - title: HTML/HTML5
     filters: html xhtml html5
-    rating: 9
+    rating: 10
 
   - title: CSS/CSS3
     filters: css css3 less scss
-    rating: 9
+    rating: 10
 
   - title: Responsive Design
     filters: responsive ui
-    rating: 8
+    rating: 9
 
-  - title: Agile/Scrum
-    filters: agile se
-    rating: 7
-
-  - title: Requirements Gathering
-    filters: rg se
-    rating: 7
-
-  - title: Graphic/UI Design
-    filters: design ui
-    rating: 6
-
-  - title: JavaScript
-    filters: javascript js
+  - title: Javascript/AJAX
+    filters: javascript js ajax
     rating: 7
 
   - title: jQuery
@@ -38,18 +26,6 @@ skills:
     filters: python django py
     rating: 7
 
-  - title: Amazon AWS (EC2/S3/RDS/R53)
-    filters: aws s3 ec2
-    rating: 3
-
-  - title: SQL/MySQL
-    filters: sql mysql
-    rating: 4
-
-  - title: ORDBMS
-    filters: django ord dbms db
-    rating: 5
-
   - title: PHP
     filters: php
     rating: 3
@@ -57,6 +33,30 @@ skills:
   - title: C#/MVC3
     filters: c# mvc3 asp
     rating: 2
+
+  - title: Java
+    filters: java
+    rating: 7
+
+  - title: Amazon AWS (EC2/S3/RDS)
+    filters: aws s3 ec2
+    rating: 3
+
+  - title: SQL/MySQL
+    filters: sql mysql
+    rating: 4
+
+  - title: Graphic/UI Design
+    filters: design ui
+    rating: 6
+
+  - title: Agile/Scrum
+    filters: agile se
+    rating: 8
+
+  - title: Requirements Gathering
+    filters: rg
+    rating: 9
 
   - title: Unit Testing/TDD
     filters: test testing tdd
@@ -71,28 +71,74 @@ work:
     type: Full-time &amp; Part-time
     start: Jan 2013
     end: present
+    description: Being at Ticketleap for over 2 years, I have had my hands in almost every aspect of the system
     competencies:
-      - summary: Implemented ticketing and marketing features using the Python/Django Web framework.
-        tags: django python rg aws test
+      - summary: Engineered and implemented event ticketing features through multiple Django stacks including unit tests
+        tags: django python rg aws test css jq ajax sql
         items:
-          - name: Designed CSS layout for responsive Event Page
-          - name: Developed Event Clone feature and unit tests
-          - name: Built and tested Database purging job and unit tests
+          - name: Event Clone
+            description: Highly-demanded feature which copies data from an existing event into a new one
 
-      - summary: Developed or overhauled HTML/CSS for nearly every UI that exists in both the app and marketing pages.
-        tags: responsive ui css html
+          - name: Database purging job
+            description: Nightly job which checks for dead accounts, warns with a grace period, and purges when necessary
+
+          - name: Upcoming Events manager
+            description: Tool which allows Ticketleap staff to alter the "upcoming events" on the marketing pages without touching code
+
+      - summary: Developed, updated, or overhauled nearly every component of the front-end
+        tags: responsive ui css html jq js
         items:
-          - name: Admin &amp; Settings
-          - name: Checkout Page (responsive)
-          - name: Event Page (responsive)
+          - name: Admin &amp; Settings UI
+
+          - name: Checkout Page
+            description: high-traffic, responsive
+
+          - name: Event Page
+            description: high-traffic, responsive
+
           - name: Marketing Pages
-          - name: PPC/Ad Pages (responsive)
 
-      - summary: Participated in planning, estimation, design, and daily standup meetings.
+          - name: PPC &amp; Ad Pages
+            description: responsive
+
+          - name: Global Forms and Buttons
+
+      - summary: Rapidly prototyped responsive UIs and layouts from wireframes and Photoshop &amp; Illustrator comps
+        tags: design html css responsive
+
+      - summary: Migrated Javascript codebase from jQuery 1.7 to 1.11 and validated all components
+        tags: js jq
+
+      - summary: Restructured and refactored CSS codebase and compression process &amp; migrated away from Bootstrap
+        tags: responsive css
+
+      - summary: Set up OpenGraph metadata on marketing and event pages
+        tags: html
+
+      - summary: Iteratively pushed features, changes, and bugfixes to development, stable, and production environments
+        tags: agile html css js jq py django test
+
+      - summary: Participated in planning, estimation, design, and daily standup meetings
         tags: se agile rg
 
-      - summary: Planned feature specifications based on requirements gathered from customers and internal stakeholders.
+      - summary: Planned feature specifications and design based on requirements gathered from customers and internal stakeholders
         tags: se rg
+
+      - summary: Developed responsive HTML emails compatible with all major email clients
+        tags: html responsive
+
+  - name: Independent
+    title: Front-end Developer
+    type: Freelance
+    start: Nov 2012
+    end: Jan 2013
+    description: Freelance work for an Ohio-based Medicaid billing partner
+    competencies:
+      - summary: Built a responsive interface and menu with HTML, CSS, and jQuery/AJAX
+        tags: html css js jq ajax
+
+      - summary: Developed HTML emails compatible with all major email clients
+        tags: html
 
 
   - name: Razorfish Health
@@ -101,12 +147,25 @@ work:
     type: Full-time
     start: Apr 2012
     end: Sept 2012
+    description: A six-month internship in which I developed various front-ends and emails for Fortune 500 companies
+    competencies:
+      - summary: Fleshed out Photoshop &amp; Fireworks comps into pixel-perfect HTML/CSS
+        tags: design html css
+
+      - summary: Fixed style bugs on Webby-nominated web sites
+        tags: css design
+
+      - summary: Developed HTML emails compatible with all major email clients
+        tags: html
+
     projects:
       - name: Specialty Benefit Services
         url: http://specialtybenefitservices.com
         competencies:
-          - summary: Served as front-end developer on this C#/MVC3 project
+          - summary: Served as the front-end developer on this C#/MVC3 project for one of the largest pharmacy benefit management organizations in the US
             tags: c# asp html css
+
+          - summary: Worked directly with UX/Designers to ensure the best possible experience
 
   - name: Electronic Ink
     url: http://www.electronicink.com/
@@ -115,12 +174,24 @@ work:
     start: June 2007
     end: Sept 2007
     competencies:
-      - summary: Reported to tech director
-
       - summary: Learned and honed skills in HTML, CSS, PHP, MySQL, JavaScript
 
       - summary: Developed resource scheduling app for Human Resources
         tags: html css mysql php javascript
+
+
+other:
+  - name: Electronic Frontier Foundation
+    url: https://www.eff.org
+    title: Silicon Member
+    start: Dec 2014
+    end: present
+
+  - name: TEDxDrexelU
+    title: Head of Web Development
+    start: Feb 2012
+    end: June 2012
+    status: Defunct
 
 
 school:

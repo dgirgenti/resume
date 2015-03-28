@@ -1,175 +1,181 @@
 /*
-	General Styles
+    General Styles
 **********************************************************************/
 body {
-	color: #444;
-	font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
-	font-size: 62.5%;
-	min-width: 320px;
-	text-align: center;
+    color: #444;
+    font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+    font-size: 62.5%;
+    min-width: 320px;
+    text-align: center;
 }
 
 /*
-	Straight Clearfixin' Y'all
+    Straight Clearfixin' Y'all
 **********************************************************************/
 header:after,
 section:after,
 section dl:after,
 footer:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 
 /*
-	Headings
+    Headings
 **********************************************************************/
 h1 {
-	font-size: 2.8em;
+    font-size: 2.8em;
 }
 h2 {
-	font-size: 2.4em;
+    font-size: 2.4em;
 }
 h3 {
-	font-size: 2em;
+    font-size: 2em;
 }
 h4 {
-	font-size: 1.4em;
+    font-size: 1.4em;
 }
 
 /*
-	Shared Structure
+    Shared Structure
 **********************************************************************/
 header,
 section,
 footer {
-	margin: 20px auto;
-	max-width: 60em;
-	padding: 0 15px;
-	text-align: left;
+    margin: 20px auto;
+    max-width: 60em;
+    padding: 0 15px;
+    text-align: left;
 }
 
 /*
-	Header
+    Header
 **********************************************************************/
 header img {
-	display: block;
-	float: left;
-	height: 200px;
-	margin: 0 20px 20px 0;
-	width: 200px;
+    display: block;
+    float: left;
+    height: 200px;
+    margin: 0 20px 20px 0;
+    width: 200px;
 }
 header hgroup {
-	text-align: right;
+    text-align: right;
 }
 header h1 {
-	color: #333;
-	font-size: 5em;
-	font-weight: bold;
-	margin: 0 0 10px;
-	text-shadow: #ccc 2px 2px;
+    color: #333;
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    text-shadow: #ccc 2px 2px;
 }
 header h2 {
-	color: #666;
-	font-size: 2em;
-	font-weight: bold;
-	margin: 3px 0;
-	text-shadow: #ddd 1px 1px;
+    color: #666;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 3px 0;
+    text-shadow: #ddd 1px 1px;
 }
 header nav {
-	display: none;
+    display: none;
 }
 header a,
 header a:visited {
-	color: #666;
-	text-decoration: none;
+    color: #666;
+    text-decoration: none;
 }
 
 /*
-	Content
+    Content
 **********************************************************************/
 section {
-	margin: 30px auto;
+    margin: 30px auto;
 }
 section section {
-	margin: 10px 0;
-	padding: 0;
+    margin: 10px 0;
+    padding: 0;
 }
 section h2 {
-	border-bottom: 1px #ccc solid;
-	color: #666;
-	font-size: 1.4em;
-	font-weight: bold;
-	margin: 10px 0;
-	padding: 0 0 3px;
-	text-align: right;
-	text-shadow: #ccc 1px 1px;
-	text-transform: uppercase;
+    border-bottom: 1px #ccc solid;
+    color: #666;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 0 0 3px;
+    text-align: right;
+    text-shadow: #ccc 1px 1px;
+    text-transform: uppercase;
 }
 section h3 {
-	color: #333;
-	font-weight: bold;
-	margin: 0 0 5px;
-	text-shadow: #ccc 1px 1px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 5px;
+    text-shadow: #ccc 1px 1px;
 }
 section h4 {
-	color: #333;
-	font-weight: bold;
-	margin: 0 0 0 20px;
-	text-shadow: #ccc 1px 1px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 0 20px;
+    text-shadow: #ccc 1px 1px;
 }
 section section dl,
 section section p,
 section section ul {
-	margin: 5px 0 10px;
+    margin: 5px 0 10px;
 }
 section section dl dt,
 section section dl dd {
-	float: left;
+    float: left;
 }
 section section dl dt {
-	font-size: 1em;
-	line-height: 1.4em;
-	margin: 0 5px 0 0;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0 5px 0 0;
 }
 section section dl dd {
-	font-size: 1.2em;
-	font-weight: bold;
-	line-height: 1.4em;
-	margin: 0 15px 0 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin: 0 15px 0 0;
 }
 strong {
-	font-weight: bold;
+    font-weight: bold;
 }
 a,
 a:visited {
-	color: #222;
-	font-weight: bold;
-	text-decoration: underline;
+    transition: all 0.2s;
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: #30554f;
 }
 p {
-	font-size: 1.2em;
-	line-height: 1.4em;
+    font-size: 1.2em;
+    line-height: 1.4em;
 }
 ul {
-	list-style-type: square;
-	padding: 0 0 0 40px;
+    list-style-type: square;
+    padding: 0 0 0 40px;
 }
 ul li {
-	font-size: 1.2em;
-	line-height: 1.4em;
-	margin: 4px 0;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin: 4px 0;
 }
 section ul ul {
-	list-style-type: square;
-	padding: 0 0 0 20px;
-	margin: 0;
+    list-style-type: square;
+    padding: 0 0 0 20px;
+    margin: 0;
 }
 ul li ul li {
-	font-size: 1em;
-	line-height: 1.4em;
+    font-size: 1em;
+    line-height: 1.4em;
 }
 
 section h1 a,
@@ -180,182 +186,199 @@ section h1 a:visited,
 section h2 a:visited,
 section h3 a:visited,
 section h4 a:visited {
-	color: #333;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 /*
-	Experience
+    Experience
 **********************************************************************/
 section .experience {
-	border-bottom: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
 }
 section .experience:last-child {
-	border-bottom: 0 none;
+    border-bottom: 0 none;
 }
 section .school h4 {
-	margin-left: 0;
+    margin-left: 0;
 }
+
 
 
 /*
-	Skills
+    Skills
 **********************************************************************/
 #skills ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 #skills li {
-	cursor: pointer;
-	margin: 0;
-	padding: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 0 0 1px;
+    padding: 0;
+}
+#skills li:hover {
+    background-color: #efefef;
 }
 #skills ul.filtering li {
-	opacity: 0.2;
+    opacity: 0.2;
+}
+#skills ul.filtering li:hover {
+    opacity: 0.9;
 }
 #skills ul.filtering li.active-filter {
-	opacity: 1;
+    position: relative;
+    opacity: 1;
+}
+#skills ul.filtering li.active-filter strong:before {
+    position: absolute;
+    content: '\2713  ';
+    left: 0.2em;
+}
+#skills ul.filtering li.active-filter:hover strong:before {
+    content: '\00D7  ';
 }
 #skills li strong {
-	color: #333;
-	float: left;
-	font-size: 1.2em;
-	font-weight: bold;
-	line-height: 1.4em;
-	margin: 4px 0 4px 20px;
-	text-shadow: #ccc 1px 1px;
-	width: 10em;
+    color: #333;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin: 4px 0 4px 20px;
+    text-shadow: #ccc 1px 1px;
+    width: 10em;
 }
 #skills li span {
-	border: 1px #ccc solid;
-	border-radius: 3px;
-		-moz-border-radius: 3px;
-		-webkit-border-radius: 3px;
-	color: #fff;
-	float: left;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+    float: left;
     font-size: 1.2em;
-	font-weight: bold;
+    font-weight: bold;
     line-height: 1.4em;
-	margin: 4px 0;
-	width: 30em;
+    margin: 4px 0;
+    width: 30em;
 }
 #skills li span em {
-	border-radius: 2px;
-		-moz-border-radius: 2px;
-		-webkit-border-radius: 2px;
-	display: block;
-	padding: 0 5px 0 0;
-	text-align: right;
+    border-radius: 0 15px 15px 0;
+    display: block;
+    padding: 0 8px 0 0;
+    text-align: right;
 }
-#skills .rating-1 em { background-color: #999; width: 3em; }
-#skills .rating-2 em { background-color: #888; width: 6em; }
-#skills .rating-3 em { background-color: #777; width: 9em; }
-#skills .rating-4 em { background-color: #666; width: 12em; }
-#skills .rating-5 em { background-color: #555; width: 15em; }
-#skills .rating-6 em { background-color: #444; width: 18em; }
-#skills .rating-7 em { background-color: #333; width: 21em; }
-#skills .rating-8 em { background-color: #222; width: 24em; }
-#skills .rating-9 em { background-color: #111; width: 27em; }
+#skills .rating-1 em { background-color: #979797; width: 3em; }
+#skills .rating-2 em { background-color: #888888; width: 6em; }
+#skills .rating-3 em { background-color: #797979; width: 9em; }
+#skills .rating-4 em { background-color: #6a6a6a; width: 12em; }
+#skills .rating-5 em { background-color: #5b5b5b; width: 15em; }
+#skills .rating-6 em { background-color: #4c4c4c; width: 18em; }
+#skills .rating-7 em { background-color: #3d3d3d; width: 21em; }
+#skills .rating-8 em { background-color: #2e2e2e; width: 24em; }
+#skills .rating-9 em { background-color: #1f1f1f; width: 27em; }
 #skills .rating-10 em { background-color: #000;  }
 
 /*
-	Clearfix
+    Clearfix
 ****************************************************************************************************/
 #skills li:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 }
 #skills li {
-	zoom: 1;
+    zoom: 1;
 }
 
 /*
-	Media Queries
+    Media Queries
 **********************************************************************/
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 640px) {
+    #skills li strong {
+        width: 28em;
+    }
+}
 
 @media screen and (max-width: 480px) {
-	header img {
-		display: block;
-		float: left;
-		height: 135px;
-		margin: 0 20px 20px 0;
-		width: 135px;
-	}
-	section dt {
-		clear: both;
-		padding-top: 1px;
-	}
-	#skills dt {
-		margin: 4px 0;
-		width: 10.5em;
-	}
-	#skills dd {
-		margin: 5px 0;
-		width: 25em;
-	}
-	#skills li span {
-		width: 100%;
-	}
-	#skills .rating-1 em { width: 10%; }
-	#skills .rating-2 em { width: 20%; }
-	#skills .rating-3 em { width: 30%; }
-	#skills .rating-4 em { width: 40%; }
-	#skills .rating-5 em { width: 50%; }
-	#skills .rating-6 em { width: 60%; }
-	#skills .rating-7 em { width: 70%; }
-	#skills .rating-8 em { width: 80%; }
-	#skills .rating-9 em { width: 90%; }
+    header img {
+        display: block;
+        float: left;
+        height: 135px;
+        margin: 0 20px 20px 0;
+        width: 135px;
+    }
+    section dt {
+        clear: both;
+        padding-top: 1px;
+    }
+    #skills dt {
+        margin: 4px 0;
+        width: 10.5em;
+    }
+    #skills dd {
+        margin: 5px 0;
+        width: 25em;
+    }
+    #skills li span {
+        width: 100%;
+    }
+    #skills .rating-1 em { width: 10%; }
+    #skills .rating-2 em { width: 20%; }
+    #skills .rating-3 em { width: 30%; }
+    #skills .rating-4 em { width: 40%; }
+    #skills .rating-5 em { width: 50%; }
+    #skills .rating-6 em { width: 60%; }
+    #skills .rating-7 em { width: 70%; }
+    #skills .rating-8 em { width: 80%; }
+    #skills .rating-9 em { width: 90%; }
 }
 
 @media screen and (max-width: 400px) {
-	header hgroup {
-		text-align: center;
-	}
-	header img {
-		display: block;
-		float: none;
-		width: 150px;
-		height: 150px;
-		margin: 0 auto 20px;
-	}
+    header hgroup {
+        text-align: center;
+    }
+    header img {
+        display: block;
+        float: none;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-	header h1 {
-		font-size: 4em;
-	}
-	header h2 {
-		font-size: 1.7em;
-	}
-	section dt {
-		clear: both;
-		padding-top: 1px;
-	}
-	section h4 {
-		margin: 0 0 0 10px;
-	}
-	ul {
-		padding: 0 0 0 25px;
-	}
-	#skills ul {
-		padding: 0;
-	}
-	#skills li strong {
-		display: block;
-		float: none;
-		margin: 4px 0 0;
-		width: 20em;
-	}
-	#skills li span {
-		clear: both;
-		margin: 0 0 5px;
-		width: 20em;
-	}
+    header h1 {
+        font-size: 4em;
+    }
+    header h2 {
+        font-size: 1.7em;
+    }
+    section dt {
+        clear: both;
+        padding-top: 1px;
+    }
+    section h4 {
+        margin: 0 0 0 10px;
+    }
+    ul {
+        padding: 0 0 0 25px;
+    }
+    #skills ul {
+        padding: 0;
+    }
+    #skills li strong {
+        display: block;
+        float: none;
+        margin: 4px 0 0;
+        width: 20em;
+    }
+    #skills li span {
+        clear: both;
+        margin: 0 0 5px;
+        width: 20em;
+    }
 }
 
 
