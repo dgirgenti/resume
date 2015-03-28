@@ -2,61 +2,29 @@
 layout: default
 
 skills:
-  - title: API Integration
-    filters: api
-    rating: 7
-
-  - title: C#/.Net
-    filters: c-sharp dot-net
-    rating: 2
+  - title: HTML/HTML5
+    filters: html xhtml html5
+    rating: 9
 
   - title: CSS/CSS3
     filters: css css3
-    rating: 8
-
-  - title: Dojo Toolkit
-    filters: dojo
-    rating: 7
+    rating: 9
 
   - title: JavaScript
     filters: javascript
-    rating: 9
+    rating: 8
 
   - title: jQuery
     filters: jquery
     rating: 8
 
-  - title: PHP/EE
-    filters: php ee
-    rating: 5
-
   - title: Python/Django
     filters: python django
-    rating: 7
-
-  - title: Requirements/Data Modeling
-    filters: requirements data-modeling
     rating: 6
 
   - title: Responsive Design
     filters: responsive
-    rating: 5
-
-  - title: Ruby/Rails
-    filters: ruby rails
-    rating: 6
-
-  - title: SVG/Canvas
-    filters: svg canvas
-    rating: 7
-
-  - title: System Administration
-    filters: sys-admin
-    rating: 4
-
-  - title: xHTML/HTML5
-    filters: xhtml html5 html
-    rating: 8
+    rating: 9
 
 
 
@@ -64,517 +32,47 @@ skills:
 work:
   - name: TicketLeap
     url: http://www.ticketleap.com/
-    title: Senior Web Developer
-    type: Full-time
-    start: Oct 2010
+    title: Web Developer
+    type: Full-time &amp; Part-time
+    start: Jan 2013
     end: present
     competencies:
       - summary: Implemented ticketing and marketing features using the Django, Python Web framework.
         tags: django python requirements dataa-modeling
         items:
-          - name: Tracking Codes and Visitor Statistics
-          - name: Registration Forms
-          - name: Email Blast
-
-      - summary: Developed namespace to encapsulate JavaScript modules for various uses.
-        tags: javascript
-        items:
-          - name: Configuration
-            description: a module that allows values to be accessed globally and allows other components and plugins to trigger actions asynchronously once particular values have been set. This utilizes the publish/subscribe event model.
-          - name: Analytics
-            description: this module defers the loading of and logging to Google Analytics to prevent the Google Analytics library from slowing down the loading of our app and shortening the user's perceived load time of pages.
-          - name: Components
-            description: a general use class that provides a means of defining and encapsulating the JavaScript functionality of pages or shared components of pages. This limits the scope of selectors being used, reduces side effects of reusing code in a large application and manages the execution of onLoad events to reduce the overhead of JavaScript functionality overall.
-
-      - summary: Developed jQuery plugins that utilize progressive enhancement techniques.
-        tags: javascript jquery
-        items:
-          - name: Credit card input
-            description: an enhancement to text inputs that indicates what type of card was entered based on the credit card number.
-          - name: Credit card swiper
-            description: using a track reader which emulates a keyboard, this control parses the track data of a card and displays the card holders name, card number, card type and expiration date. It also saves the track data in a hidden input for submission to our payment system and provides user feedback during processing, success and error. This control supports keyboard navigation as if it were a native form element.
-          - name: Information Panes
-            description: similar to a tabbed container, this control is used to allow a configuration information to be organized by category, while limiting what is immediately visible. Users can switch between panes to view additional settings.
-          - name: Fancy Select
-            description: an enhanced select box that converts the native select element into a list of radio or check boxes. This control includes, a contextual label that indicates what is selected, collapsible option groups, option filtering and buttons to select or unselect all visible options.
-
-      - summary: Integrated Facebook and Twitter APIs to integrate social functionality.
-        tags: api javascript python
-
-      - summary: Utilized CSS3 to replace image replacement to achieve aesthetic.
-        tags: css html
-
-      - summary: Designed and built mobile version of our app utilizing HTML5 and responsive design techniques.
-        tags: css html responsive
-
-      - summary: Architected presentation layer patterns to easily manage a high volume of HTML, CSS, JavaScript and image assets.
-        tags: javascript css html
-
-      - summary: Integrated Amazon Web Services including Amazon Simple Queue Service (SQS), Amazon Simple Storage Service (S3), Amazon Simple Email Service (SES).
-        tags: api requirements
-
-      - summary: Worked with deployment on Amazon Web Services using Elastic Load Balancing, Amazon Elastic Compute Cloud (EC2), Amazon Route 53 for DNS, Amazon Relational Database Service (RDS) and CloudFront for content delivery.
-        tags: api sys-admin
-
-      - summary: Implemented an automated deployment process for marketing related content using Jekyll &mdash; a blog-aware, static site generator &mdash; allowing updates to marketing content to be updated and released independent of our main platform.
-        tags: python sys-admin
-
-      - summary: Planned feature specifications based on requirements gathered from customers and internal stakeholders.
-        tags: requirements
-
-      - summary: Helped mold agile development project management workflow allowing us to deliver new features every two &ndash; three weeks.
+          - name: Event Clone feature (and unit tests)
+          - name: Every part of the front end
 
 
-
-
-  - name: NerdNodes
-    title: Developer, Principal
-    type: Freelance
-    start: May 2010
-    end: present
-    competencies:
-      - summary: Managed client relationships.
-      - summary: Established delivery schedules.
-      - summary: Worked with freelancers to complete contracted work.
-      - summary: Submitted invoices and managed financial aspects of the company.
-      - summary: Wrote statements of work.
-    projects:
-
-      - name: Automated Data Processing Inc.
-        competencies:
-          - summary: Evangelized the adoption of the Revolution UI standards and widget library.
-          - summary: Evangelized the benefits of and adherence to web standards.
-          - summary: Consulted with internal development teams to assist in planning the integration of the Revolution UI Library into existing development environments varying from Java to .NET.
-            tags: requirements
-
-          - summary: Developed custom widgets using the Dojo JavaScript Toolkit and the Dijit widget system.
-            tags: javascript dojo css
-            items:
-              - name: Wizard
-              - name: DualMultiSelect
-              - name: App
-
-      - name: TBC Corporation
-        competencies:
-          - summary: Developed C#/.Net site core that allowed seven basic marketing sites to be implemented using an identical codebase with a simple configuration changes.
-            tags: c-sharp dot-net
-
-          - summary: Converted comps to xHTML/CSS. All seven sites used identical markup but different stylesheets.
-            tags: html css
-
-      - name: National Organization on Disability
-        url: http://nod.org/
-        competencies:
-          - summary: Implemented ExpressionEngine 1.7.
-            tags: ee php
-
-          - summary: Provided automated deployment process.
-            tags: sys-admin ruby
-
-          - summary: Developed an ExpressionEngine extension that overrides the native pagination functionality to use the value in the get string for the page. <a href="http://github.com/timmyfury/EE-Query-String-Pagination">The source</a> is available on github.
-            tags: ee php
-
-      - name: John Sterling Ruth Photography
-        url: http://johnsterlingruth.com/
-        competencies:
-          - summary: Developed a simple admin for managing images, videos and galleries.
-            tags: rails
-
-          - summary: Provided XML API interface for flash based version of the site.
-            tags: rails
-
-          - summary: Implemented mobile version of the site using jQuery Mobile.
-            tags: jquery responsive
-
-
-
-
-
-
-  - name: Happy Cog Philadelphia
-    url: http://happycog.com/
-    title: Presentation Layer Developer
-    type: Contract
-    start: Aug 2009
-    end: May 2010
-    projects:
-      - name: Automated Data Processing Inc.
-        competencies:
-          - summary: Implemented UI component library using Dojo JavaScript Framework
-            tags: javascript dojo css
-
-          - summary: Produced extensive documentation site and example library to help kickstart implementation.
-
-          - summary: Extended the entire Dijit widget library and a significant amount of the Dojox widget library into a custom namespace to ensure forward compatibility and enforcement of Revolution UI standards.
-            tags: javascript dojo css
-
-          - summary: Gathered full business requirements based on UI concept screens.
-            tags: requirements
-
-          - summary: Developed custom Dijit widgets for implementation in diverse environments
-            tags: javascript dojo css
-            items:
-              - name: MegaMenu
-              - name: Shell
-              - name: AppContainer
-
-      - name: Build-a-Bear Workshop
-        competencies:
-          - summary: Converted comps to xHTML/CSS
-            tags: css html
-
-          - summary: Developed jQuery plug-ins
-            tags: jquery javascript
-
-      - name: Daily Kos
-        competencies:
-          - summary: Converted Photoshop comps to xHTML/CSS
-            tags: css html
-
-
-
-
-  - name: Gamervision LLC
-    url: http://gamervision.com/
-    title: Ruby Developer, Engineer
+  - name: Razorfish Health
+    url: http://www.razorfishhealth.com/
+    title: Associate Developer
     type: Full-time
-    start: Oct 2008
-    end: Aug 2009
-    competencies:
-      - summary: Negotiated contracts
-      - summary: Planned and implemented API integration with Viddler video service.
-        tags: api
-      - summary: Developed data acquisition module for extensive game database
-        tags: api data-modeling requirements
-      - summary: Implemented agile development workflow
-      - summary: Designed ad sales packages and sold ads
-
-
-
-
-
-  - name: Empathy Lab
-    url: http://www.empathylab.com/
-    title: PHP Developer
-    type: Contract
-    start: Apr 2008
-    end: Oct 2008
-    projects:
-      - name: MTV Networks
-      - description: Developed social network called ilovetv.com for VH1. The project never launched.
-      - competencies:
-        - summary: Integrated with REST API for Flux user authentication system
-          tags: api php
-
-        - summary: JavaScript API for Flux UGC contribution library
-          tags: api javascript
-
-        - summary: SOAP API for Crowd Factory Community Platform
-          tags: api php
-
-        - summary: Google Search Appliance API
-          tags: api php
-
-        - summary: Designed and developed simple PHP MVC framework
-          tags: php
-
-        - summary: Managed client relationship
-
-
-
-
-
-  - name: Razorfish
-    url: http://www.razorfish.com/
-    title: Senior Presentation Layer Developer
-    type: Full-time
-    start: Feb 2008
-    end: Apr 2008
-    competencies:
-      - summary: Converted Photoshop comps to XHTML/CSS
-        tags: xhtml css
-
-      - summary: Developed jQuery plug-ins
-        tags: jquery javascript
-
-
+    start: Apr 2012
+    end: Sept 2012
 
 
   - name: Electronic Ink
     url: http://www.electronicink.com/
-    title: Senior Interactive Technologist
+    title: Technology Intern
     type: Full-time
-    start: Apr 2006
-    end: Feb 2008
+    start: June 2007
+    end: Sept 2007
     competencies:
-      - summary: Implemented source control system
-      - summary: Mentored and trained new hire, junior and intern developers
-      - summary: Researched and learned new technologies
-      - summary: Competed in Microsoft sponsored Silverlight competition, Phizzpop
-      - summary: Received co-worker recognition with awarding of Electronic Ink Innovation Award
-
-    projects:
-      - name: Gamervision LLC
-        url: http://gamervision.com/
-        competencies:
-          - summary: Gathered and analyzed user requirements and wrote functional specification
-            tags: requirements
-
-          - summary: Architected data and business logic layers of social networking application
-            tags: data-modeling rails ruby
-
-          - summary: Managed hosting relationship and application deployment
-            tags: sys-admin
-
-      - name: DecisionOne
-        competencies:
-          - summary: Installed, configured and customized Expression Engine content management system
-            tags: php ee sys-admin
-
-          - summary: Planned and executed presentation tier development
-            tags: css html requirements
-
-          - summary: Integrated Great Plains HRMS API
-            tags: php api
-
-      - name: MetroCorp Marketing
-        competencies:
-          - summary: Implemented and customized Expression Engine content management system
-            tags: php ee
-
-          - summary: Converted design comps into XHTML/CSS templates
-            tags: html css
-
-          - summary: Managed client relationship
-
-      - name: Bryn Mawr College
-        competencies:
-          - summary: Developed XHTML/CSS templates
-            tags: html css
-
-          - summary: Implemented custom select control with JavaScript and CSS
-            tags: jquery javascript
-
-          - summary: Developed jQuery plug-ins
-            tags: jquery javascript
-
-      - name: Magee Rehabilitation
-        competencies:
-          - summary: Conducted user interviews and focus groups and participated in user observation
-            tags: requirements
-
-          - summary: Gathered Requirements and inventory of data generation points
-            tags: requirements
-
-          - summary: Evaluated current state of data collection
-            tags: requirements
-
-          - summary: Researched and recommended technologies and processes to streamline workflow
-
-      - name: Penske Truck Leasing
-        competencies:
-          - summary: Evaluated design deliverables for implementability and technical limitations
-
-      - name: Electronic Ink Estimator
-        competencies:
-          - summary: Gathered feature requirements and translated them into functionality
-            tags: requirements
-
-          - summary: Designed Database schema
-            tags: data-modeling
-
-          - summary: Deployed application
-            tags: sys-admin
-
-          - summary: Developed business logic layer
-            tags: rails ruby
-
-
-
-
-
-
-
-
-  - name: Delaware County Community College
-    url: http://www.dccc.edu/
-    title: Web Services Specialist
-    type: Full-time
-    start: Aug 2004
-    end: Apr 2006
-    competencies:
-      - summary: Analyzed user requirements, planned information architecture scheme and guided visual style
-        tags: requirements data-modeling
-
-      - summary: Developed and implemented content administration modules
-        tags: php
-
-      - summary: Designed and Developed multimedia tutorials and virtual tours with Flash
-
-      - summary: Integrated external content via RSS and Google Maps API
-        tags: api
-
-      - summary: Assisted in developing marketing efforts and maintained content of institution wide website
-
-      - summary: Performed server administration duties
-        tags: sys-admin
-
-      - summary: Planned, implemented and maintained multi-campus photo ID system
-
-      - summary: Mentored and trained new hire, junior and intern developers
-
-      - summary: Trained faculty and staff in basic computing concepts, HTML and other web related technologies
-
-      - summary: Promoted from Multimedia Technology Support Specialist in August 2004
-
-
-
-
-
-
-
-
-
-  - name: Franklin Institute Science Museum
-    url: http://fi.edu/
-    title: Manager of Camp-in program
-    type: Part-time
-    start: Oct 2000
-    end: April 2006
-    competencies:
-      - summary: Delivered welcome address to parents and children spending the night in the museum.
-      - summary: Coordinated the schedules and movement of up to 700 campers per night.
-      - summary: Performed educational science shows.
-      - summary: Managed 15-20 staff per night.
-      - summary: Yelled at a lot of children
-      - summary: Provided first aid to campers.
-      - summary: Made coffee.
-      - summary: Slept on the floor of the museum.
-
-
-
-
-
-
-
-
-
-play:
-  - name: Eating Crowe
-    url: http://eatingcrowe.com/
-    title: The Talent
-    start: May 2009
-    end: Nov 2009
-    description: Born out of my desire to share my love of food, this cooking show aimed to show viewers that complex food was not out of their reach.
-    competencies:
-      - summary: Organized and planned episode shoots.
-      - summary: Coordinated events.
-      - summary: Managed marketing efforts.
-      - summary: Cooked and made jokes.
-      - summary: Maintained show website.
-        tags: html css responsive
-
-
-
-
-
-
-
-  - name: canhasdomain
-    url: http://canhasdomain.com/
-    title: Developer
-    description: A simple Sinatra application that allows you to find out whether a domain name is available. This is done by parsing the whois information for a url. <a href="http://github.com/timmyfury/canhasdomain">The source</a> is available on github.
-    competencies:
-      - summary: Conceived feature for the site.
-      - summary: Developed Sinatra app.
-        tags: ruby sys-admin
-
-
-
-
-
-
-  - name: PhilaMade
-    url: http://philamade.com/
-    title: SiteNite Developer
-    start: Apr 16 2006
-    competencies:
-      - summary: Converted comps to xHTML/CSS
-        tags: css html
-      - summary: Wrote jQuery plugin to display Twitter follower avatar cloud.
-        tags: api javascript jquery
-
-
-
-
-
-
-  - name: Canty Shanty
-    url: http://cantyshanty.com/
-    title: Developer, Creator, Maintainer
-    description: Canty Shanty is a simple site that I developed to help organize and share the immense collection of images I had collected for my home improvement inspiration.
-    competencies:
-      - summary: Deployed app using Heroku.
-        tags: sys-admin
-
-      - summary: Developed Rails content management app.
-        tags: rails ruby data-modeling
-
-      - summary: Utilized responsive techniques to update the site easily on a mobile device.
-        tags: css responsive
-
-
-
-
-
-  - name: Bananus Info
-    url: http://bananusinfo.info/
-    title: Creator
-
-
-
-
-
-
-
-  - name: Operation Dandelion
-    url: http://operationdandelion.com/
-    title: Creator
-
-
-
-
-
+      - summary: Learned and honed skills in HTML, CSS, PHP, MySQL, JavaScript
+        tags: xhtml html css mysql sql javascript php
+
+      - summary: Developed resource scheduling app for Human Resources
+        tags: html css mysql php javascript
 
 
 school:
-  - name: Art Institute of Philadelphia
-    url: http://www.artinstitutes.edu/philadelphia/
-    status: Incomplete
-    program: Culinary Arts
-    start: May 2008
-    end: Nov 2009
-
-  - name: Temple University
-    url: http://www.temple.edu/
-    status: Incomplete
-    program: Management Information Systems
-    start: June 2004
-    end: Aug 2006
-
-  - name: Delaware County Community College
-    url: http://www.dccc.edu/
-    status: ABA
-    program: Business Administration
-    start: Jan 2002
-    end: May 2004
-
-  - name: Delaware County Community College
-    url: http://www.dccc.edu/
-    status: AS
-    program: Computer Science
-    start: Sep 2001
-    end: May 2003
+  - name: Drexel University College of Computing &amp; Informatics
+    url: http://drexel.edu
+    status: Senior
+    program: Software Engineering
+    start: Sept 2010
+    end: Sept 2015
 ---
 
 

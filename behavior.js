@@ -1,3 +1,8 @@
+/*
+	Created by: Tim Crowe aka timmyfury
+	http://timmyfury.com/resume
+*/
+
 (function($){
 
 	/*
