@@ -1,5 +1,5 @@
 <section class="experience">
-	<h3>{% if experience.url %}<a href="{{ experience.url}}">{% endif %}{{ experience.name }}{% if experience.url %}</a>{% endif %}</h3>
+	<h3>{% if experience.url %}<a href="{{ experience.url}}" target="_blank">{% endif %}{{ experience.name }}{% if experience.url %}</a>{% endif %}</h3>
 
   {% if experience.title or experience.type or experience.start or experience.end %}
 	<dl>
@@ -40,7 +40,7 @@
   {% if experience.projects %}
     {% for project in experience.projects %}
       <section class="project">
-        <h4>{% if project.url %}<a href="{{ project.url}}">{% endif %}{{ project.name }}{% if project.url %}</a>{% endif %}</h4>
+        <h4>{% if project.url %}<a href="{{ project.url}}" target="_blank">{% endif %}{{ project.name }}{% if project.url %}</a>{% endif %}</h4>
     
         {% if project.description %}
         <p>{{ project.description }}</p>
