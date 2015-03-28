@@ -193,6 +193,9 @@ section .experience {
 section .experience:last-child {
 	border-bottom: 0 none;
 }
+section .school h4 {
+	margin-left: 0;
+}
 
 
 /*
