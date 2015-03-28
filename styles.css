@@ -298,29 +298,39 @@ section .school h4 {
 		margin: 5px 0;
 		width: 25em;
 	}
-	#skills .rating-1 em { width: 2.5em; }
-	#skills .rating-2 em { width: 5em; }
-	#skills .rating-3 em { width: 7.5em; }
-	#skills .rating-4 em { width: 10em; }
-	#skills .rating-5 em { width: 12.5em; }
-	#skills .rating-6 em { width: 15em; }
-	#skills .rating-7 em { width: 17.5em; }
-	#skills .rating-8 em { width: 20em; }
-	#skills .rating-9 em { width: 22.5em; }
+	#skills li span {
+		width: 100%;
+	}
+	#skills .rating-1 em { width: 10%; }
+	#skills .rating-2 em { width: 20%; }
+	#skills .rating-3 em { width: 30%; }
+	#skills .rating-4 em { width: 40%; }
+	#skills .rating-5 em { width: 50%; }
+	#skills .rating-6 em { width: 60%; }
+	#skills .rating-7 em { width: 70%; }
+	#skills .rating-8 em { width: 80%; }
+	#skills .rating-9 em { width: 90%; }
 }
 
-@media screen and (max-width: 400px) {}
-
-@media screen and (max-width: 320px) {
-	header {
-		text-align: right;
+@media screen and (max-width: 400px) {
+	header hgroup {
+		text-align: center;
 	}
 	header img {
 		display: block;
-		float: right;
-		height: 200px;
-		margin: 0 0 20px;
-		width: 200px;
+		float: none;
+		width: 150px;
+		height: 150px;
+		margin: 0 auto 20px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	header h1 {
+		font-size: 4em;
+	}
+	header h2 {
+		font-size: 1.7em;
 	}
 	section dt {
 		clear: both;
@@ -346,15 +356,6 @@ section .school h4 {
 		margin: 0 0 5px;
 		width: 20em;
 	}
-	#skills .rating-1 em { width: 2em; }
-	#skills .rating-2 em { width: 4em; }
-	#skills .rating-3 em { width: 6em; }
-	#skills .rating-4 em { width: 8em; }
-	#skills .rating-5 em { width: 10em; }
-	#skills .rating-6 em { width: 12em; }
-	#skills .rating-7 em { width: 14em; }
-	#skills .rating-8 em { width: 16em; }
-	#skills .rating-9 em { width: 18em; }
 }
 
 
