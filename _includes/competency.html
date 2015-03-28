@@ -1,14 +1,14 @@
 <li class="competency{% if competency.tags %} {{ competency.tags }}{% endif %}">
-{% if competency.summary %}
-  {{ competency.summary }}
-  {% if competency.items %}
+    {% if competency.summary %}
+    {{ competency.summary }}
+    {% if competency.items %}
     <ul>
-    {% for item in competency.items %}
-    <li>{% if item.name or item.description %}{% if item.name %}<strong>{{ item.name }}</strong>{% endif %}{% if item.name and item.description %}: {% endif %}{% if item.description %}{{ item.description }}{% endif %}{% else %}{{ item }}{% endif %}</li>
-    {% endfor %}
+        {% for item in competency.items %}
+        <li>{% if item.name or item.description %}{% if item.name %}<strong>{{ item.name }}</strong>{% endif %}{% if item.name and item.description %}: {% endif %}{% if item.description %}{{ item.description }}{% endif %}{% else %}{{ item }}{% endif %}</li>
+        {% endfor %}
     </ul>
-  {% endif %}
-{% else %}
-  {{ competency }}
-{% endif %}
+    {% endif %}
+    {% else %}
+    {{ competency }}
+    {% endif %}
 </li>

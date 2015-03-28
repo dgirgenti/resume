@@ -1,59 +1,59 @@
 <section class="experience">
-	<h3>{% if experience.url %}<a href="{{ experience.url}}" target="_blank">{% endif %}{{ experience.name }}{% if experience.url %}</a>{% endif %}</h3>
+    <h3>{% if experience.url %}<a href="{{ experience.url}}" target="_blank">{% endif %}{{ experience.name }}{% if experience.url %}</a>{% endif %}</h3>
 
   {% if experience.title or experience.type or experience.start or experience.end %}
-	<dl>
-		{% if experience.title %}
-		  <dt>Title</dt>
-		  <dd>{{ experience.title }}</dd>
-		{% endif %}
+  <dl>
+    {% if experience.title %}
+    <dt>Title</dt>
+    <dd>{{ experience.title }}</dd>
+    {% endif %}
 
-		{% if experience.type %}
-  		<dt>Type</dt>
-  		<dd>{{ experience.type }}</dd>
-		{% endif %}
+    {% if experience.type %}
+    <dt>Type</dt>
+    <dd>{{ experience.type }}</dd>
+    {% endif %}
 
-		{% if experience.start or experience.end %}
-		  <dt>Dates</dt>
-		  <dd>
-		    {% if experience.start or experience.end %}<time datetime="">{{ experience.start }}</time>{% endif %}
-		    {% if experience.start and experience.end %} &ndash; {% endif %}
-		    {% if experience.start or experience.end %}<time datetime="">{{ experience.end }}</time>{% endif %}
-		  </dd>
-		{% endif %}
-	</dl>
-	{% endif %}
-
-  {% if experience.description %}
-  <p>{{ experience.description }}</p>
+    {% if experience.start or experience.end %}
+    <dt>Dates</dt>
+    <dd>
+      {% if experience.start or experience.end %}<time datetime="">{{ experience.start }}</time>{% endif %}
+      {% if experience.start and experience.end %} &ndash; {% endif %}
+      {% if experience.start or experience.end %}<time datetime="">{{ experience.end }}</time>{% endif %}
+  </dd>
   {% endif %}
+</dl>
+{% endif %}
 
-  {% if experience.competencies %}
-  <ul>
+{% if experience.description %}
+<p>{{ experience.description }}</p>
+{% endif %}
+
+{% if experience.competencies %}
+<ul>
     {% for competency in experience.competencies %}
+    {% include competency.html %}
+    {% endfor %}
+</ul>
+{% endif %}
+
+
+{% if experience.projects %}
+{% for project in experience.projects %}
+<section class="project">
+    <h4>{% if project.url %}<a href="{{ project.url}}" target="_blank">{% endif %}{{ project.name }}{% if project.url %}</a>{% endif %}</h4>
+    
+    {% if project.description %}
+    <p>{{ project.description }}</p>
+    {% endif %}
+    
+    {% if project.competencies %}
+    <ul>
+      {% for competency in project.competencies %}
       {% include competency.html %}
-    {% endfor %}
-	</ul>
+      {% endfor %}
+  </ul>
   {% endif %}
-
-
-  {% if experience.projects %}
-    {% for project in experience.projects %}
-      <section class="project">
-        <h4>{% if project.url %}<a href="{{ project.url}}" target="_blank">{% endif %}{{ project.name }}{% if project.url %}</a>{% endif %}</h4>
-    
-        {% if project.description %}
-        <p>{{ project.description }}</p>
-        {% endif %}
-    
-        {% if project.competencies %}
-        <ul>
-          {% for competency in project.competencies %}
-            {% include competency.html %}
-          {% endfor %}
-      	</ul>
-        {% endif %}
-      </section>
-    {% endfor %}
-  {% endif %}
+</section>
+{% endfor %}
+{% endif %}
 </section>
