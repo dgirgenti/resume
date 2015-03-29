@@ -69,7 +69,7 @@
 					showSelector = showFilters.join(","),
 					experiences = $(".experience"),
 					projects = $(".project"),
-					sections = $('#work, #play');
+					sections = $('#work, #other');
 
 				if(activeFilters.length){
 					skillsListNode.addClass('filtering');
@@ -97,9 +97,18 @@
 			filterNodes = skillsNode.find(".filter"),
 			activeFilters = [],
 			instructionsNode = $('<p>Click or tap skills to filter experience. <a href="#" style="display: none;">Clear all filters.</a></p>'),
-			clearNode = instructionsNode.find('a');
+			clearNode = instructionsNode.find('a'),
+			headerNode = skillsNode.find('h2')
+			contentNode = skillsNode.find('.content');
 
-		skillsNode.find('h2').after(instructionsNode);
+		skillsNode.find('ul').before(instructionsNode);
+
+		headerNode.on('click', function(evt){
+			if ($(window).width() <= 640) {
+				skillsNode.toggleClass("open");
+				contentNode.slideToggle(200);
+			}
+		});
 
 		clearNode.click(function(evt){
 			evt.preventDefault();
@@ -115,6 +124,11 @@
 			} else {
 				activeFilters = addCompetencyFilter(target, filters, activeFilters);
 			}
+		});
+
+		$(window).on('resize', function() {
+			skillsNode.addClass("open");
+			contentNode.not(':visible').show();
 		});
 
 	});

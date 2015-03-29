@@ -45,13 +45,14 @@
 
     {% if page.skills %}
         <section id="skills">
-            <h2>Skills</h2>
-
-            <ul>
-        {% for skill in page.skills %}
-          {% include skill.html %}
-        {% endfor %}
-            </ul>
+            <h2>Skills<span class="trigger"></span></h2>
+            <div class="content">
+                <ul>
+                {% for skill in page.skills %}
+                    {% include skill.html %}
+                {% endfor %}
+                </ul>
+            </div>
         </section>
     {% endif %}
 

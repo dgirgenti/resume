@@ -60,6 +60,7 @@ header img {
     height: 200px;
     margin: 0 20px 20px 0;
     width: 200px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 header hgroup {
     text-align: right;
@@ -69,14 +70,14 @@ header h1 {
     font-size: 5em;
     font-weight: bold;
     margin: 0 0 10px;
-    text-shadow: #ccc 2px 2px;
+    text-shadow: 2px 2px 1px #ccc;
 }
 header h2 {
     color: #666;
     font-size: 2em;
     font-weight: bold;
     margin: 3px 0;
-    text-shadow: #ddd 1px 1px;
+    text-shadow: 1px 1px 1px #ddd;
 }
 header nav {
     display: none;
@@ -98,27 +99,26 @@ section section {
     padding: 0;
 }
 section h2 {
-    border-bottom: 1px #ccc solid;
-    color: #666;
+    color: #FFF;
     font-size: 1.4em;
     font-weight: bold;
-    margin: 10px 0;
-    padding: 0 0 3px;
-    text-align: right;
-    text-shadow: #ccc 1px 1px;
-    text-transform: uppercase;
+    margin: 10px 0 0;
+    padding: 8px 8px 8px 20px;
+    background-color: #49526B;
+    text-transform: lowercase;
+    letter-spacing: 1px;
 }
 section h3 {
     color: #333;
     font-weight: bold;
     margin: 0 0 5px;
-    text-shadow: #ccc 1px 1px;
+    text-shadow: 1px 1px 1px #ccc;
 }
 section h4 {
     color: #333;
     font-weight: bold;
     margin: 0 0 0 20px;
-    text-shadow: #ccc 1px 1px;
+    text-shadow: 1px 1px 1px #ddd;
 }
 section section dl,
 section section p,
@@ -153,7 +153,7 @@ a:visited {
 a:hover,
 a:active {
     text-decoration: underline;
-    color: #30554f;
+    color: #1c302f;
 }
 p {
     font-size: 1.2em;
@@ -259,7 +259,7 @@ section .school h4 {
     font-weight: bold;
     line-height: 1.4em;
     margin: 4px 0;
-    width: 30em;
+    width: 28em;
 }
 #skills li span em {
     border-radius: 0 15px 15px 0;
@@ -267,15 +267,15 @@ section .school h4 {
     padding: 0 8px 0 0;
     text-align: right;
 }
-#skills .rating-1 em { background-color: #979797; width: 3em; }
-#skills .rating-2 em { background-color: #888888; width: 6em; }
-#skills .rating-3 em { background-color: #797979; width: 9em; }
-#skills .rating-4 em { background-color: #6a6a6a; width: 12em; }
-#skills .rating-5 em { background-color: #5b5b5b; width: 15em; }
-#skills .rating-6 em { background-color: #4c4c4c; width: 18em; }
-#skills .rating-7 em { background-color: #3d3d3d; width: 21em; }
-#skills .rating-8 em { background-color: #2e2e2e; width: 24em; }
-#skills .rating-9 em { background-color: #1f1f1f; width: 27em; }
+#skills .rating-1 em { background-color: #979797; width: 2.8em; }
+#skills .rating-2 em { background-color: #888888; width: 5.6em; }
+#skills .rating-3 em { background-color: #797979; width: 8.4em; }
+#skills .rating-4 em { background-color: #6a6a6a; width: 11.2em; }
+#skills .rating-5 em { background-color: #5b5b5b; width: 14em; }
+#skills .rating-6 em { background-color: #4c4c4c; width: 16.8em; }
+#skills .rating-7 em { background-color: #3d3d3d; width: 19.6em; }
+#skills .rating-8 em { background-color: #2e2e2e; width: 22.4em; }
+#skills .rating-9 em { background-color: #1f1f1f; width: 25.2em; }
 #skills .rating-10 em { background-color: #000;  }
 
 /*
@@ -295,9 +295,31 @@ section .school h4 {
 /*
     Media Queries
 **********************************************************************/
+
 @media screen and (max-width: 640px) {
+    #skills h2 {
+        position: relative;
+        cursor: pointer;
+    }
+    #skills h2:after {
+        position: absolute;
+        right: 20px;
+        top: 8px;
+        content: "▼";
+    }
+    #skills.open h2:after {
+        content: "▲";
+    }
+    #skills .content {
+        display: none;
+    }
     #skills li strong {
-        width: 28em;
+        width: 88%;
+        margin: 2px 0 -4px;
+    }
+    #skills ul.filtering li.active-filter strong:before,
+    #skills ul.filtering li.active-filter:hover strong:before {
+        content: "";
     }
 }
 
@@ -321,8 +343,15 @@ section .school h4 {
         margin: 5px 0;
         width: 25em;
     }
+    #skills p {
+        padding-left: 1em;
+    }
+    #skills li strong {
+        margin-left: 1em;
+    }
     #skills li span {
-        width: 100%;
+        width: 88%;
+        margin-left: 1em;
     }
     #skills .rating-1 em { width: 10%; }
     #skills .rating-2 em { width: 20%; }
