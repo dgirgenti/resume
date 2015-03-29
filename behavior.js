@@ -127,8 +127,10 @@
 		});
 
 		$(window).on('resize', function() {
-			skillsNode.addClass("open");
-			contentNode.not(':visible').show();
+			if ($(window).width >= 640) {
+				skillsNode.addClass("open");
+				contentNode.not(':visible').show();
+			}
 		});
 
 	});
