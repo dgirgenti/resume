@@ -78,14 +78,12 @@ header h1 {
     font-size: 5em;
     font-weight: bold;
     margin: 0 0 10px;
-    text-shadow: 2px 2px 1px #ccc;
 }
 header h2 {
     color: #666;
     font-size: 2em;
     font-weight: bold;
     margin: 3px 0;
-    text-shadow: 1px 1px 1px #ddd;
 }
 header nav {
     display: none;
@@ -120,13 +118,11 @@ section h3 {
     color: #333;
     font-weight: bold;
     margin: 0 0 5px;
-    text-shadow: 1px 1px 1px #ccc;
 }
 section h4 {
     color: #333;
     font-weight: bold;
     margin: 0 0 0 20px;
-    text-shadow: 1px 1px 1px #ddd;
 }
 section section dl,
 section section p,
@@ -254,7 +250,6 @@ section .school h4 {
     font-weight: bold;
     line-height: 1.4em;
     margin: 4px 0 4px 20px;
-    text-shadow: #ccc 1px 1px;
     width: 10em;
 }
 #skills li span {
