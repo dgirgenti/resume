@@ -96,7 +96,7 @@
 		var skillsNode = $('#skills'),
 			filterNodes = skillsNode.find(".filter"),
 			activeFilters = [],
-			instructionsNode = $('<p>Click or tap skills to filter experience. <a href="#" style="display: none;">Clear all filters.</a></p>'),
+			instructionsNode = $('<p>Click or tap skills to filter experience below. <a href="#" style="display: none;">Clear all filters.</a></p>'),
 			clearNode = instructionsNode.find('a'),
 			headerNode = skillsNode.find('h2')
 			contentNode = skillsNode.find('.content');
