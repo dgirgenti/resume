@@ -262,7 +262,7 @@ section .school h4 {
     width: 10em;
 }
 #skills li span {
-    background-color: #fff;
+    color: #fff;
     border-radius: 0 15px 15px 0;
     float: left;
     font-size: 1.1em;
