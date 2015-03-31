@@ -217,13 +217,21 @@ section .school h4 {
     padding: 0;
 }
 #skills li {
-    transition: all 0.3s;
+    transition: all 0.2s;
     cursor: pointer;
-    margin: 0 0 1px;
+    margin: 0;
     padding: 0;
+    border-bottom: 1px solid #ccc;
 }
-#skills li:hover {
+#skills li:nth-child(odd) {
     background-color: #efefef;
+}
+#skills li:last-child {
+    border-bottom: 0;
+}
+#skills li:hover,
+#skills li:nth-child(odd):hover {
+    background-color: #DDD;
 }
 #skills ul.filtering li {
     opacity: 0.2;
@@ -234,6 +242,7 @@ section .school h4 {
 #skills ul.filtering li.active-filter {
     position: relative;
     opacity: 1;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.2);
 }
 #skills ul.filtering li.active-filter strong:before {
     position: absolute;
@@ -246,7 +255,7 @@ section .school h4 {
 #skills li strong {
     color: #333;
     float: left;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     line-height: 1.4em;
     margin: 4px 0 4px 20px;
@@ -254,11 +263,9 @@ section .school h4 {
 }
 #skills li span {
     background-color: #fff;
-    border: 1px #ccc solid;
     border-radius: 0 15px 15px 0;
-    color: #fff;
     float: left;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     line-height: 1.4em;
     margin: 4px 0;
