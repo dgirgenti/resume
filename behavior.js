@@ -133,5 +133,7 @@
 			}
 		});
 
+
+		$('body').animate({'opacity':1}, 500);
 	});
 }(jQuery));
