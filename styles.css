@@ -123,7 +123,7 @@ section h3 {
 section h4 {
     color: #333;
     font-weight: bold;
-    margin: 0 0 0 20px;
+    margin: 0;
 }
 section section dl,
 section section p,
@@ -308,6 +308,12 @@ section .school h4 {
 **********************************************************************/
 
 @media screen and (max-width: 640px) {
+    header h1 {
+        font-size: 4em;
+    }
+    header h2 {
+        font-size: 1.8em;
+    }
     #skills h2 {
         position: relative;
         cursor: pointer;

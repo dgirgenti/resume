@@ -32,32 +32,18 @@
             <h2><a href="tel:+1-267-337-3509" rel="nofollow">(267) 337-3509</a></h2>
             <h2><a href="https://www.linkedin.com/in/dgirgenti" target="_blank" rel="nofollow">LinkedIn</a> | <a href="https://github.com/dgirgenti" target="_blank">GitHub</a></h2>
         </hgroup>
-
-        <nav>
-            <ul>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#school">School</a></li>
-            </ul>
-        </nav>
     </header>
 
-    {% if page.skills %}
-    <section id="skills">
-        <h2>Skills<span class="trigger"></span></h2>
-        <div class="content">
-            <ul>
-                {% for skill in page.skills %}
-                {% include skill.html %}
-                {% endfor %}
-            </ul>
-        </div>
+    {% if page.summary %}
+    <section id="summary">
+        <h2>summary</h2>
+        <p>{{page.summary}}</p>
     </section>
     {% endif %}
 
     {% if page.work %}
     <section id="work">
-        <h2>Work</h2>
+        <h2>experience</h2>
 
         {% for experience in page.work %}
         {% include experience.html %}
@@ -67,7 +53,7 @@
 
     {% if page.other %}
     <section id="other">
-        <h2>Other</h2>
+        <h2>other</h2>
 
         {% for experience in page.other %}
         {% include experience.html %}
@@ -77,7 +63,7 @@
 
     {% if page.school %}
     <section id="school">
-        <h2>Education</h2>
+        <h2>education</h2>
 
         {% for school in page.school %}
         {% include school.html %}

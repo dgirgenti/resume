@@ -3,28 +3,28 @@
 
     {% if experience.title or experience.type or experience.start or experience.end %}
     <dl>
-        {% if experience.status %}
-        <dt>Status</dt>
-        <dd>{{ experience.status }}</dd>
-        {% endif %}
-
         {% if experience.title %}
-        <dt>Title</dt>
+        <dt>what</dt>
         <dd>{{ experience.title }}</dd>
         {% endif %}
 
-        {% if experience.type %}
-        <dt>Type</dt>
-        <dd>{{ experience.type }}</dd>
-        {% endif %}
-
         {% if experience.start or experience.end %}
-        <dt>Dates</dt>
+        <dt>when</dt>
         <dd>
             {% if experience.start or experience.end %}<time datetime="">{{ experience.start }}</time>{% endif %}
             {% if experience.start and experience.end %} &ndash; {% endif %}
             {% if experience.start or experience.end %}<time datetime="">{{ experience.end }}</time>{% endif %}
         </dd>
+        {% endif %}
+
+        {% if experience.type %}
+        <dt>how</dt>
+        <dd>{{ experience.type }}</dd>
+        {% endif %}
+
+        {% if experience.status %}
+        <dt>status</dt>
+        <dd>{{ experience.status }}</dd>
         {% endif %}
     </dl>
     {% endif %}
