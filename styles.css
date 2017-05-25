@@ -12,7 +12,7 @@
 body {
     color: #444;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 63.5%;
+    font-size: 69%;
     min-width: 320px;
     text-align: center;
     opacity: 0;
@@ -72,16 +72,15 @@ header img {
     box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 header hgroup {
-    text-align: right;
+    text-align: center;
 }
 header h1 {
-    color: #333;
+    color: #4f4f4f;
     font-size: 5em;
     font-weight: bold;
     margin: 0 0 10px;
 }
 header h2 {
-    color: #666;
     font-size: 2em;
     font-weight: bold;
     margin: 3px 0;
@@ -89,10 +88,33 @@ header h2 {
 header nav {
     display: none;
 }
-header a,
-header a:visited {
-    color: #666;
+header .links .link-cell {
+    display: inline-block;
+    padding: 0 6px;
+    border-right: 2px solid #4f4f4f;
+}
+header .links .link-cell:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+header .links .link-cell a {
+    display: inline-block;
+    padding: 10px;
+    color: #4f4f4f;
+    line-height: 1;
     text-decoration: none;
+}
+header .links .link-cell a:hover {
+    text-decoration: underline;
+}
+header .links .email:hover {
+    color: #A83582;
+}
+header .links .linkedin:hover {
+    color: #1E9799;
+}
+header .links .github:hover {
+    color: #E2412F;
 }
 
 /*
@@ -114,6 +136,10 @@ section h2 {
     background-color: #76923D;
     text-transform: lowercase;
     letter-spacing: 1px;
+    transition: all 0.75s;
+}
+section:hover h2 {
+    background-color: #A83582;
 }
 section h3 {
     color: #333;
