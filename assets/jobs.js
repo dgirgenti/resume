@@ -174,8 +174,15 @@ Common tasks included: Development or rapid prototyping of responsive user inter
                 name: 'Technology Intern',
                 start: 'June 2007',
                 end: 'September 2007',
-                description: ``,
-                technologies: [],
+                description: `Electronic Ink is a design/ad agency. This was my first exposure to web development. I learned the basics in HTML, CSS, and Javascript.`,
+                technologies: [
+                    'XHTML',
+                    'CSS',
+                    'JavaScript',
+                    'PHP',
+                    'MySQL',
+                    'SVN',
+                ],
             }
         ],
     },
