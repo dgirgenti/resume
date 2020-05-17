@@ -79,121 +79,36 @@ export default {
 </script>
 
 <style lang="scss">
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Remove default padding */
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img {
-  max-width: 100%;
-  display: block;
-}
-
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Remove all animations and transitions for people that prefer not to see them */
-// @media (prefers-reduced-motion: reduce) {
-//   * {
-//     animation-duration: 0.01ms !important;
-//     animation-iteration-count: 1 !important;
-//     transition-duration: 0.01ms !important;
-//     scroll-behavior: auto !important;
-//   }
-// }
-
-
-/* */
-
-.container {
-  margin: 0 auto;
-  max-width: 1024px;
-}
-
 .title {
     text-align: center;
 }
 
-.subtitle {
+.links {
+    text-align: center;
+    margin-bottom: 20px;
 
-}
+    &__link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 44px;
+        min-width: 44px;
+        padding-left: 15px;
+        padding-right: 15px;
 
-/* */
+        &:not(:last-child) {
+            border-right: 1px solid #ddd;
+        }
 
-* {
-    transition: all 200ms;
-}
-
-body {
-    color: #333;
-    padding: 10px 20px;
-}
-
-.o-link {
-    color: #222;
-
-    &:hover,
-    &:focus,
-    &:active {
-        color: #000;
-        text-decoration: none;
+        &:hover,
+        &:focus,
+        &:active {
+            box-shadow: inset 0px 0px 10px #ddd;
+        }
     }
+}
+
+.summary {
+    margin-bottom: 15px;
 }
 
 .jobs {

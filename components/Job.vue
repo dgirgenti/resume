@@ -55,18 +55,24 @@ export default {
 
 <style lang="scss">
 .job {
-    padding: 0 10px;
+    padding-bottom: 10px;
 
     &__name {
-
+        font-size: 1.3rem;
     }
 
     &__aside {
+        font-weight: initial;
+        font-style: italic;
         font-size: 0.8rem;
     }
 
     &__positions {
+        margin-bottom: 10px;
+    }
 
+    &__tech-heading {
+        display: inline;
     }
 }
 </style>

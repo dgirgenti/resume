@@ -39,18 +39,11 @@ export default {
             required: true,
         },
     },
-    computed: {
-        descriptionHTML() {
-            return marked(this.position.description);
-        },
-    },
 };
 </script>
 
 <style lang="scss">
 .position {
-    margin-bottom: 20px;
-
     &__meta {
         display: flex;
         justify-content: left;
@@ -59,24 +52,11 @@ export default {
 
     &__name {
         margin-right: 15px;
+        font-size: 1.05rem;
     }
 
     &__dates {
         font-style: italic;
-    }
-
-    &__description {
-        p {
-            margin-bottom: 10px;
-        }
-    }
-
-    &__tech {
-
-    }
-
-    &__tech-heading {
-        display: inline;
     }
 }
 </style>
