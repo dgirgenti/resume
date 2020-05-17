@@ -10,8 +10,8 @@
 
             <span
                 v-if="asideHTML"
-                v-html="asideHTML"
-                class="o-markdown job__aside" />
+                class="o-markdown job__aside"
+                v-html="asideHTML" />
 
         </h2>
 
@@ -25,20 +25,20 @@
 
         </ul>
 
-        <p v-if="descriptionHTML" v-html="descriptionHTML" class="o-markdown job__description" />
+        <p v-if="descriptionHTML" class="o-markdown job__description" v-html="descriptionHTML" />
 
         <p v-if="job.technologies" class="job__tech">
-            <h4 v-if="job.technologies" class="job__tech-heading">
-                Technologies:
-            </h4>
+        <h4 v-if="job.technologies" class="job__tech-heading">
+            Technologies:
+        </h4>
 
-            <span>
-                <template v-for="(technology, index) in job.technologies">
+        <span>
+            <template v-for="(technology, index) in job.technologies">
 
-                    {{ technology }}{{ index !== job.technologies.length - 1 ? ', ' : '' }}
+                {{ technology }}{{ index !== job.technologies.length - 1 ? ', ' : '' }}
 
-                </template>
-            </span>
+            </template>
+        </span>
         </p>
     </div>
 </template>

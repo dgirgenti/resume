@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 export default [
     {
         name: 'Urban Outfitters Inc',
@@ -128,7 +129,7 @@ My largest project was a responsive UI kit based around Bootstrap. The kit serve
                 name: 'Full-stack Developer',
                 start: 'January 2013',
                 end: 'October 2015',
-            }
+            },
         ],
         description: `
 Ticketleap is a DIY ticketing and event services provider. I joined the team during undergrad, and learned full-stack development on their Python & Django stack. I was involved in every aspect of the software development lifecycle by participating in research, design, architecture, development, testing, and maintenance, UI to cloud. I had partial responsibility for other duties like system administration, SEO, and gathering requirements from or assisting members of the Customer Success, Marketing, Accounting, and QA teams.
@@ -159,7 +160,7 @@ Ticketleap is a DIY ticketing and event services provider. I joined the team dur
                 name: 'Front-end Developer',
                 start: 'November 2012',
                 end: 'January 2013',
-            }
+            },
         ],
         description: 'For this contract, I worked with both the founder and designer of a Medicaid billing partner to flesh out a responsive UI with HTML/CSS/jQuery. I also created an HTML email template.',
         technologies: [
@@ -176,7 +177,7 @@ Ticketleap is a DIY ticketing and event services provider. I joined the team dur
                 name: 'Associate Developer',
                 start: 'April 2012',
                 end: 'September 2012',
-            }
+            },
         ],
         description: 'Razorfish Health is a healthcare-focused design/ad agency. During this six-month internship, I turned Photoshop and Fireworks designs into functional websites with HTML/CSS/jQuery. I served as front-end dev on a C#/ASP.NET/MVC3 project for one of the largest pharmacy benefit management organizations in the US. I also fixed style issues on two Webby Honoree sites and created a bunch of HTML emails for two of the top five pharmaceutical companies in the US.',
         technologies: [
@@ -193,22 +194,22 @@ Ticketleap is a DIY ticketing and event services provider. I joined the team dur
     },
     {
         name: 'Electronic Ink',
-        aside: `(now part of [**Capgemini Invent**](https://www.capgemini.com/us-en/service/invent/))`,
+        aside: '(now part of [**Capgemini Invent**](https://www.capgemini.com/us-en/service/invent/))',
         positions: [
             {
                 name: 'Technology Intern',
                 start: 'June 2007',
                 end: 'September 2007',
-            }
+            },
         ],
-        description: `Electronic Ink was a design agency. This was my first exposure to web development. I learned the basics in HTML, CSS, and JavaScript.`,
-            technologies: [
-                'XHTML',
-                'CSS',
-                'JavaScript',
-                'PHP',
-                'MySQL',
-                'SVN',
-            ],
+        description: 'Electronic Ink was a design agency. This was my first exposure to web development. I learned the basics in HTML, CSS, and JavaScript.',
+        technologies: [
+            'XHTML',
+            'CSS',
+            'JavaScript',
+            'PHP',
+            'MySQL',
+            'SVN',
+        ],
     },
 ];

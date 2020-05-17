@@ -6,11 +6,19 @@
             </h1>
 
             <section class="links">
-                <a href="mailto:dan.girgenti+resume@gmail.com" class="o-link links__link">email</a><!--
+                <a
+                    href="mailto:dan.girgenti+resume@gmail.com"
+                    class="o-link links__link">email</a><!--
 
-                --><a href="https://www.linkedin.com/in/dgirgenti" target="_blank" class="o-link links__link">linkedin</a><!--
+                --><a
+                    href="https://www.linkedin.com/in/dgirgenti"
+                    target="_blank"
+                    class="o-link links__link">linkedin</a><!--
 
-                --><a href="https://github.com/dgirgenti" target="_blank" class="o-link links__link">github</a>
+                --><a
+                    href="https://github.com/dgirgenti"
+                    target="_blank"
+                    class="o-link links__link">github</a>
             </section>
 
             <section>
@@ -51,9 +59,9 @@
 </template>
 
 <script>
-import education from '~/assets/education';
-import jobs from '~/assets/jobs';
-import seo from '~/assets/seo';
+import education from '~/assets/education.js';
+import jobs from '~/assets/jobs.js';
+import seo from '~/assets/seo.js';
 
 import Job from '~/components/Job.vue';
 import SectionHeader from '~/components/SectionHeader.vue';
