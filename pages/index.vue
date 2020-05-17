@@ -34,8 +34,8 @@
                     education
                 </SectionHeader>
 
-
-            </section>            
+                <Job :job="education" />
+            </section>
 
         </div>
 
@@ -43,6 +43,7 @@
 </template>
 
 <script>
+import education from '~/assets/education';
 import jobs from '~/assets/jobs';
 import seo from '~/assets/seo';
 
@@ -61,6 +62,7 @@ export default {
                 description: seo.description,
             },
             jobs,
+            education,
         };
     },
     head() {
