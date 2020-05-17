@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import 'marked';
+import marked from 'marked';
 
 import Position from '~/components/Position.vue';
 
@@ -47,7 +47,7 @@ export default {
     },
     computed: {
         asideHTML() {
-            return this.job.aside ? inlineLexer(this.job.aside, {}) : null;
+            return this.job.aside ? marked.inlineLexer(this.job.aside, {}) : null;
         },
     },
 };
