@@ -9,22 +9,6 @@
                 {{ position.start }} &ndash; {{ position.end || 'present' }}
             </p>
         </div>
-
-        <p v-html="descriptionHTML" class="position__description" />
-
-        <p class="position__tech">
-            <h4 class="position__tech-heading">
-                Technologies: 
-            </h4>
-
-            <span>
-                <template v-for="(technology, index) in position.technologies">
-
-                    {{ technology }}{{ index !== position.technologies.length - 1 ? ', ' : '' }}
-
-                </template>
-            </span>
-        </p>
     </div>
 </template>
 

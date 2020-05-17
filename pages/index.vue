@@ -5,6 +5,14 @@
                 Dan Girgenti
             </h1>
 
+            <section class="links">
+                <a href="mailto:dan.girgenti+resume@gmail.com" class="o-link links__link">email</a><!--
+
+                --><a href="https://www.linkedin.com/in/dgirgenti" target="_blank" class="o-link links__link">linkedin</a><!--
+
+                --><a href="https://github.com/dgirgenti" target="_blank" class="o-link links__link">github</a>
+            </section>
+
             <section>
                 <SectionHeader>
                     summary
@@ -14,14 +22,14 @@
                     {{ seo.description }}
                 </p>
             </section>
-            
+
             <section>
                 <SectionHeader>
                     experience
                 </SectionHeader>
-                
+
                 <ul class="jobs">
-                    
+
                     <li v-for="job in jobs" class="jobs__job">
                         <Job :job="job" />
                     </li>
