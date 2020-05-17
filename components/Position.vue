@@ -53,12 +53,12 @@ export default {
 
     &__meta {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
+        justify-content: left;
+        align-items: center;
     }
 
     &__name {
-
+        margin-right: 15px;
     }
 
     &__dates {
