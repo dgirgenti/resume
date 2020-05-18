@@ -59,9 +59,9 @@
 </template>
 
 <script>
-import education from '~/assets/education.js';
-import jobs from '~/assets/jobs.js';
-import seo from '~/assets/seo.js';
+import education from '~/assets/education';
+import jobs from '~/assets/jobs';
+import seo from '~/assets/seo';
 
 import Job from '~/components/Job.vue';
 import SectionHeader from '~/components/SectionHeader.vue';
