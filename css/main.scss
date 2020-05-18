@@ -80,4 +80,9 @@ section {
     body {
         padding: 0;
     }
+    a,
+    a:visited {
+        color: $body-color;
+        text-decoration: none;
+    }
 }

@@ -13,9 +13,10 @@
             </section>
 
             <section class="links links--print">
-                <span v-for="link in seo.links" class="links__link links__link--print">
-                    {{ link.name }}: {{ link.print }}
-                </span>
+                <a
+                    :href="link.href"
+                    v-for="link in seo.links"
+                    class="links__link links__link--print">{{ link.name }}: {{ link.print }}</a>
             </section>
 
             <section>
