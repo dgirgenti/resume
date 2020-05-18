@@ -26,4 +26,16 @@ export default {
         background-color: #a83582;
     }
 }
+
+@media print {
+    .section-header {
+        margin: 0 0 5px;
+        padding: 0;
+        color: #000;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        border-bottom: 1px solid #ddd;
+    }
+}
 </style>

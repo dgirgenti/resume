@@ -5,20 +5,17 @@
                 Dan Girgenti
             </h1>
 
-            <section class="links">
+            <section class="links links--screen">
                 <a
-                    href="mailto:dan.girgenti+resume@gmail.com"
-                    class="o-link links__link">email</a><!--
+                    v-for="link in seo.links"
+                    :href="link.href"
+                    class="o-link links__link">{{ link.name }}</a>
+            </section>
 
-                --><a
-                    href="https://www.linkedin.com/in/dgirgenti"
-                    target="_blank"
-                    class="o-link links__link">linkedin</a><!--
-
-                --><a
-                    href="https://github.com/dgirgenti"
-                    target="_blank"
-                    class="o-link links__link">github</a>
+            <section class="links links--print">
+                <span v-for="link in seo.links" class="links__link links__link--print">
+                    {{ link.name }}: {{ link.print }}
+                </span>
             </section>
 
             <section>
@@ -73,10 +70,7 @@ export default {
     },
     data() {
         return {
-            seo: {
-                title: seo.title,
-                description: seo.description,
-            },
+            seo,
             jobs,
             education,
         };
@@ -111,6 +105,11 @@ export default {
     text-align: center;
     margin-bottom: 20px;
 
+    &--print {
+        display: none;
+        margin-bottom: 10px;
+    }
+
     &__link {
         display: inline-flex;
         align-items: center;
@@ -126,7 +125,13 @@ export default {
         &:hover,
         &:focus,
         &:active {
-            box-shadow: inset 0px 0px 10px #ddd;
+            box-shadow: inset 0 0 0 4px #ddd;
+        }
+
+        &--print {
+            font-size: 1rem;
+            min-height: auto;
+            min-width: auto;
         }
     }
 }
@@ -140,6 +145,23 @@ export default {
         &:not(:last-child) {
             border-bottom: 1px solid #ddd;
             margin-bottom: 10px;
+        }
+    }
+}
+
+@media print {
+    .title {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .links {
+        &--print {
+            display: block;
+        }
+
+        &--screen {
+            display: none;
         }
     }
 }

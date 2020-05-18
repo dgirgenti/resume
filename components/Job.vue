@@ -1,6 +1,6 @@
 <template>
     <div class="job">
-        <h2 class="job__name">
+        <h3 class="job__name">
 
             <a v-if="job.url" :href="job.url" class="o-link">{{ job.name }}</a>
 
@@ -13,7 +13,7 @@
                 class="o-markdown job__aside"
                 v-html="asideHTML" />
 
-        </h2>
+        </h3>
 
         <ul class="job__positions">
 
@@ -90,6 +90,20 @@ export default {
 
     &__tech-heading {
         display: inline;
+    }
+}
+
+@media print {
+    .job {
+        padding-bottom: 5px;
+
+        &__name {
+            font-size: 1.1rem;
+        }
+
+        &__positions {
+            margin-bottom: 5px;
+        }
     }
 }
 </style>
