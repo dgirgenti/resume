@@ -30,6 +30,10 @@ export default {
         display: flex;
         justify-content: left;
         align-items: center;
+
+        @media screen and (max-width: 480px) {
+            display: block;
+        }
     }
 
     &__name {
@@ -41,4 +45,5 @@ export default {
         font-style: italic;
     }
 }
+
 </style>

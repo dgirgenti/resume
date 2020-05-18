@@ -82,6 +82,10 @@ export default {
         font-weight: initial;
         font-style: italic;
         font-size: 0.8rem;
+
+        @media screen and (max-width: 480px) {
+            display: none;
+        }
     }
 
     &__positions {
