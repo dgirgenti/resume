@@ -20,7 +20,7 @@ Urban Outfitters is a multinational clothing & lifestyle retailer. The Web team 
 
 I have most recently held a platform architecture role during a front-end replatform to a progressive web application using Server-side Vue. The performance-first app relies heavily on async route- and component-level chunking, dynamic module registration, lazy loading, and lazy hydration. The project involves adhering to strict performance budgets and meeting WCAG AA compliance.
 
-* Develop or migrate features, components, and whole routes to the Vue PWA
+* Develop or migrate UI features, components, and whole routes to the Vue PWA
 * Advise in architecture and styling matters across the Web teams
 * Serve as codeowner on all core files for peer review and guidance
 * Ensure constant optimization of app performance
@@ -31,9 +31,9 @@ I have most recently held a platform architecture role during a front-end replat
 * Present information during weekly knowledge-sharing sessions
 * Gather and document requirements by interfacing with product owners, business analysts, back-end engineers, analytics & SEO managers, etc.
 
-From January to April 2019, I had the role of style lead, interfacing with designers & UX to oversee the design system, mixin/component libraries, and style guides.
+In addition to this role, I served as style lead from January to April 2019, interfacing with designers & UX to oversee the design system, mixin/component libraries, and style guides.
 
-Prior to October 2018, I implemented features on a Python/Tornado app with a custom JS component library and Redux.`,
+Prior to October 2018, I developed features on a Python/Tornado app with a custom JS component library and Redux.`,
         technologies: [
             'JavaScript (es5 to es2020)',
             'Python 3',
@@ -62,6 +62,7 @@ Prior to October 2018, I implemented features on a Python/Tornado app with a cus
             'nosetest',
             'jest',
             'jasmine',
+            'Git',
             'Jira',
         ],
     },
@@ -94,6 +95,7 @@ While at Zoomi I implemented and maintained several production features. Most no
             'Backbone.js',
             'Webpack',
             'gulp',
+            'Git',
             'Jira',
             'SCORM',
         ],
@@ -128,6 +130,7 @@ My largest project was a responsive UI kit based around Bootstrap. The kit serve
             'Java',
             'JSP/JSTL',
             'Jekyll',
+            'Git',
             'Jira',
         ],
     },
@@ -158,6 +161,7 @@ Ticketleap is a DIY ticketing and event services provider. I joined the team dur
             'Require.js',
             'Grunt',
             'Jekyll',
+            'Git',
             'Jira',
             'Litmus',
             'MySQL',
