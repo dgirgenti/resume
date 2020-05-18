@@ -16,10 +16,11 @@ export default [
             },
         ],
         description: `
-Urban Outfitters is a multinational clothing & lifestyle retailer. The Web team is responsible for the front-end ecommerce platforms of **[Urban Outfitters](https://urbanoutfitters.com)**, **[Anthropologie](https://anthropologie.com)**, and **[Free People](https://freepeople.com/)**.
+Urban Outfitters is a multinational clothing & lifestyle retailer. The Web team is responsible for the front-end ecommerce platforms of **[Urban Outfitters](https://urbanoutfitters.com)**, **[Anthropologie](https://anthropologie.com)**, and **[Free People](https://freepeople.com/)**. I am currently a Senior Software Engineer.
 
-I am currently a Senior Software Engineer, where I have been serving in an architecture role on a front-end replatform to an isomorphic Vue progressive web application. The performance-first app architecture heavily relies on async route- and component-level chunking, dynamic Vuex module registration, lazy loading, and lazy hydration. The project has involved strict performance budgets driving lean component, server, and data architecture.
+I have most recently held a platform architecture role during a front-end replatform to a progressive web application using Server-side Vue. The performance-first app relies heavily on async route- and component-level chunking, dynamic module registration, lazy loading, and lazy hydration. The project involves adhering to strict performance budgets and meeting WCAG AA compliance.
 
+* Develop or migrate features, components, and whole routes to the Vue PWA
 * Advise in architecture and styling matters across the Web teams
 * Serve as codeowner on all core files for peer review and guidance
 * Ensure constant optimization of app performance
@@ -28,9 +29,11 @@ I am currently a Senior Software Engineer, where I have been serving in an archi
   * Compare performance over time using automated Lighthouse scripts
   * Implement A/B or multivariate tests for partial rollouts, feature comparison, and conversion testing
 * Present information during weekly knowledge-sharing sessions
-* Served as styling architect from January to April 2019, interfacing with designers & UX to oversee the design system, mixin / component libraries, and style guides on Storybook
+* Gather and document requirements by interfacing with product owners, business analysts, back-end engineers, analytics & SEO managers, etc.
 
-Prior to October 2018, I worked on the Python 3 / Tornado platform with a custom JS component library and Redux, supporting mainly the product detail and account pages.`,
+From January to April 2019, I had the role of style lead, interfacing with designers & UX to oversee the design system, mixin/component libraries, and style guides.
+
+Prior to October 2018, I implemented features on a Python/Tornado app with a custom JS component library and Redux.`,
         technologies: [
             'JavaScript (es5 to es2020)',
             'Python 3',
