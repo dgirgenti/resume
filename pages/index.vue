@@ -9,13 +9,14 @@
                 <a
                     v-for="link in seo.links"
                     :href="link.href"
+                    target="_blank"
                     class="o-link links__link">{{ link.name }}</a>
             </section>
 
             <section class="links links--print">
                 <a
-                    :href="link.href"
                     v-for="link in seo.links"
+                    :href="link.href"
                     class="links__link links__link--print">{{ link.name }}: {{ link.print }}</a>
             </section>
 
