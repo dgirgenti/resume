@@ -1,15 +1,52 @@
+import seo from './assets/seo';
+
 export default {
     mode: 'spa',
     /*
   ** Headers of the page
   */
     head: {
+        title: `${seo.title} - ${seo.shortDesc}`,
         meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            {
+                hid: 'description',
+                name: 'description',
+                content: seo.description,
+            },
+            {
+                hid: 'og:type',
+                property: 'og:type',
+                content: 'website',
+            },
+            {
+                hid: 'og:title',
+                property: 'og:title',
+                content: `${seo.title} - ${seo.shortDesc}`,
+            },
+            {
+                hid: 'og:locale',
+                property: 'og:locale',
+                content: 'en-US',
+            },
+            {
+                hid: 'og:site_name',
+                property: 'og:site_name',
+                content: seo.title,
+            },
+            {
+                hid: 'og:site_name',
+                property: 'og:site_name',
+                content: seo.title,
+            },
         ],
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            {
+                rel: 'stylesheet',
+                href: 'https://fonts.googleapis.com/css?family=Lato',
+            },
         ],
         htmlAttrs: {
             lang: 'en',

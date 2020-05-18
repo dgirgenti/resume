@@ -75,24 +75,6 @@ export default {
             education,
         };
     },
-    head() {
-        return {
-            title: this.seo.title,
-            link: [
-                {
-                    rel: 'stylesheet',
-                    href: 'https://fonts.googleapis.com/css?family=Lato',
-                },
-            ],
-            meta: [
-                {
-                    hid: 'description',
-                    name: 'description',
-                    content: this.seo.description,
-                },
-            ],
-        };
-    },
 };
 </script>
 
