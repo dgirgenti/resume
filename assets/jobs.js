@@ -28,7 +28,7 @@ I am currently a Senior Software Engineer, where I have been serving in an archi
   * Compare performance over time using automated Lighthouse scripts
   * Implement A/B or multivariate tests for partial rollouts, feature comparison, and conversion testing
 * Present information during weekly knowledge-sharing sessions
-* Served as styling architect from January to April 2019, overseeing the design system, SCSS mixin, and UI component libraries, and style guides on Storybook
+* Served as styling architect from January to April 2019, interfacing with designers & UX to oversee the design system, mixin / component libraries, and style guides on Storybook
 
 Prior to October 2018, I worked on the Python 3 / Tornado platform with a custom JS component library and Redux, supporting mainly the product detail and account pages.`,
         technologies: [
