@@ -6,43 +6,37 @@ export default [
         url: 'https://urbn.com',
         positions: [
             {
+                name: 'Senior Software Engineer',
+                start: 'April 2019',
+            },
+            {
                 name: 'Software Engineer',
                 start: 'July 2017',
                 end: 'April 2019',
             },
-            {
-                name: 'Senior Software Engineer',
-                start: 'April 2019',
-            },
         ],
         description: `
-Urban Outfitters is a multinational clothing & lifestyle retailer. The Web team is responsible for the front-end ecommerce platforms of **[Urban Outfitters](https://urbanoutfitters.com)**, **[Anthropologie](https://anthropologie.com)**, and **[Free People](https://freepeople.com/)**. I am currently a Senior Software Engineer.
+* Architect, implement, and iterate on solutions across the front-end ecommerce platform, homepage to checkout (and beyond), for the **[Urban Outfitters](https://urbanoutfitters.com)**, **[Anthropologie](https://anthropologie.com)**, and **[Free People](https://freepeople.com/)** sites
 
-I have most recently held a platform architecture role during a front-end replatform to a progressive web application using Server-side Vue. The performance-first app relies heavily on async route- and component-level chunking, dynamic module registration, lazy loading, and lazy hydration. The project involves adhering to strict performance budgets and meeting WCAG AA compliance.
+* Serve in a supporting architecture role for the ongoing rollout of a cutting-edge Vue replatform focused on both server- and client-side application performance
 
-* Develop or migrate UI features, components, and whole routes to the Vue PWA
-* Advise in architecture and styling matters across the Web teams
-* Serve as codeowner on all core files for peer review and guidance
-* Ensure constant optimization of app performance
-  * Deprioritization of background and below-the-fold functionality
-  * Decreasing bytes over the wire by decreasing bundle sizes and limiting extraneous data
-  * Compare performance over time using automated Lighthouse scripts
-  * Implement A/B or multivariate tests for partial rollouts, feature comparison, and conversion testing
-* Present information during weekly knowledge-sharing sessions
-* Gather and document requirements by interfacing with product owners, business analysts, back-end engineers, analytics & SEO managers, etc.
+* Refine application resiliency and user experience through constant multivariate testing, analytics gathering, and meaningful logging
 
-In addition to this role, I served as style lead from January to April 2019, interfacing with designers & UX to oversee the design system, mixin/component libraries, and style guides.
+* Provide guidance and feedback to engineers, product owners, and analysts regarding code quality, standards &amp; practices, architecture, performance, WCAG 2.1 AA compliance, business requirements, and domain knowledge
 
-Prior to October 2018, I developed features on a Python/Tornado app with a custom JS component library and Redux.`,
+* Achieved top-tier Lighthouse scores with the Vue application using strict automated performance budgets
+
+* Received universally-positive feedback for previously serving in the roles of Tech Lead on a team of 4 engineers/QA, and as Design System Architect collaborating with Design and UX stakeholders
+
+* Successfully onboarded engineers and QA to the Vue application while maintaining and sunsetting features from the former application
+
+* Assisted in the oversight of external contractors during development of several features`,
         technologies: [
             'JavaScript (es5 to es2020)',
             'Python 3',
             'Tornado',
-            'Server-side Vue',
+            'Vue',
             'Vuex',
-            'vue-router',
-            'vue-i18n',
-            'SCSS',
             'Redux',
             'Webpack',
             'Docker',
@@ -50,6 +44,7 @@ Prior to October 2018, I developed features on a Python/Tornado app with a custo
             'express',
             'axios',
             'gulp',
+            'SCSS',
             'Jinja',
             'Nunjucks',
             'Lighthouse',
@@ -64,11 +59,13 @@ Prior to October 2018, I developed features on a Python/Tornado app with a custo
             'jasmine',
             'Git',
             'Jira',
+            'Abstract',
+            'Sketch',
         ],
     },
     {
         name: 'Zoomi',
-        url: 'https://zoomiinc.com',
+        url: 'https://zoomi.ai/',
         positions: [
             {
                 name: 'Software Developer',
@@ -77,14 +74,15 @@ Prior to October 2018, I developed features on a Python/Tornado app with a custo
             },
         ],
         description: `
-Zoomi is an artificial intelligence platform for learning which provides first-of-its-kind prescriptive analytics to instructors. I was a full-stack developer responsible for various projects from the UI to the cloud.
+* Led the solutioning and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
-While at Zoomi I implemented and maintained several production features. Most notably, I architected and built Zoomi's asset management and content ingestion systems, which processed and adapted an increasing list of supported media types and learning standards into the production client application.
+* Oversaw various features being developed by offshore engineers and QA
 
-* Built features on both the Django API and Backbone client application
-* Maintained asset management processes and systems
-* Wrote scripts to ingest content and media from a variety of client-provided sources
-* Interfaced with production clients and researchers about technical specifications and requirements`,
+* Interfaced with Fortune 500 clients, internal integration specialists, and academic researchers to gather and refine technical specifications and requirements
+
+* Engineered production features on both front- and back-end web applications
+
+* Increased the usefulness of analytics gathering tools to feed the artificial intelligence service`,
         technologies: [
             'Python',
             'Django',
@@ -111,14 +109,13 @@ While at Zoomi I implemented and maintained several production features. Most no
             },
         ],
         description: `
-Club OS is a health club CRM and Web platform. I was one of two front-end engineers, and together we worked alongside the designer and back-end team to develop features for the platform.
+* Created a responsive front-end component library to be used by all internal and external web applications and converted the main application over to it
 
-My largest project was a responsive UI kit based around Bootstrap. The kit served as the authoritative source of UI component styling for all future internal and external Web apps, and the re-skinning of the existing app. It contained various styles, themes, custom JavaScript components such as a datepicker, and a custom SVG icon font.
+* Refactored, cleaned, and generally maintained the front-end codebases
 
-* Refactored, cleaned, and maintained front-end codebase
-* Automated commonly-performed tasks
-* Created and modified custom (non-)embedded forms as requested by external stakeholders
-* Participated in team planning and discussions related to front-end architecture and workflow`,
+* Automated some commonly-performed tasks to assist in daily productivity
+
+* Created and modified custom CRM forms with input from external stakeholders`,
         technologies: [
             'JavaScript (es6)',
             'Node',
@@ -145,15 +142,19 @@ My largest project was a responsive UI kit based around Bootstrap. The kit serve
             },
         ],
         description: `
-Ticketleap is a DIY ticketing and event services provider. I joined the team during undergrad and learned full-stack development on their Python & Django stack. I was involved in every aspect of the software development lifecycle by participating in research, design, architecture, development, testing, and maintenance, UI to cloud. I had partial responsibility for other duties like system administration, SEO, and gathering requirements from or assisting members of the Customer Success, Marketing, Accounting, and QA teams.
+* Created the interface for the highest-traffic page on the platform
 
-* Prototyped and developed responsive user interfaces with HTML/CSS and jQuery
-* Designing and implementing features on front- and back-end Django stacks in parallel with QA
-* Performed a variety of maintenance, sysadmin, and devops duties on multiple AWS products (S3, EC2, ELB)`,
+* Designed, developed, and improved production features on the Python/Django application
+
+* Turned Content &amp; Marketing's ideas into user experiences on the marketing site
+
+* Consulted with Product, QA, Design, UX, Customer Success, and other stakeholders to ensure business requirements were met
+
+* Performed a variety of platform maintenance, sysadmin, devops, and SEO implementation`,
         technologies: [
             'Python',
             'Django',
-            'AWS',
+            'AWS (S3, EC2, ELB, SNS)',
             'JavaScript',
             'jQuery',
             'Responsive CSS',
@@ -168,22 +169,6 @@ Ticketleap is a DIY ticketing and event services provider. I joined the team dur
         ],
     },
     {
-        name: 'Freelance',
-        positions: [
-            {
-                name: 'Front-end Developer',
-                start: 'November 2012',
-                end: 'January 2013',
-            },
-        ],
-        description: 'For this contract, I worked with both the founder and designer of a Medicaid billing partner to flesh out a responsive UI with HTML/CSS/jQuery. I also created an HTML email template.',
-        technologies: [
-            'HTML',
-            'Responsive CSS',
-            'jQuery',
-        ],
-    },
-    {
         name: 'Razorfish Health',
         url: 'https://razorfishhealth.com/',
         positions: [
@@ -193,7 +178,14 @@ Ticketleap is a DIY ticketing and event services provider. I joined the team dur
                 end: 'September 2012',
             },
         ],
-        description: 'Razorfish Health is a healthcare-focused design/ad agency. During this six-month internship, I turned Photoshop and Fireworks designs into functional websites with HTML/CSS/jQuery. I served as front-end dev on a C#/ASP.NET/MVC3 project for one of the largest pharmacy benefit management organizations in the US. Improved styling on two Webby Honoree sites and created a bunch of HTML emails for two of the top five pharmaceutical companies in the US.',
+        description: `
+* Developed styling on two Webby Honoree sites
+
+* Implemented front-end of an application for one of the largest pharmacy benefit management organizations in the US
+
+* Converted Photoshop and Fireworks designs into functional web applications
+
+* Created a bunch of HTML email templates for two of the largest pharmaceutical companies in the US`,
         technologies: [
             'HTML',
             'CSS',
@@ -216,7 +208,12 @@ Ticketleap is a DIY ticketing and event services provider. I joined the team dur
                 end: 'September 2007',
             },
         ],
-        description: 'Electronic Ink was a design agency. This was my first exposure to web development. I learned the basics in HTML, CSS, and JavaScript.',
+        description: `
+* Learned the fundamentals of web application development
+
+* Created a web-based project scheduling and resource management application
+
+* Intern things`,
         technologies: [
             'XHTML',
             'CSS',

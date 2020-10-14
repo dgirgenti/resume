@@ -2,7 +2,7 @@
 export default {
     title: 'Dan Girgenti',
     shortDesc: 'Philadelphia-based software engineer',
-    description: 'Philadelphia-based software engineer with a focus on web applications. Advocate for high-performance architecture at scale, responsive interface design systems, and constant knowledge sharing. I dig 4-space tabs and trailing commas. 👋',
+    description: 'Philadelphia-based software engineer with a focus on web applications. Advocate for performant front-end architecture and technical leadership through knowledge sharing and peer review. I dig 4-space tabs and trailing commas. 👋',
     links: [
         {
             name: 'email',
