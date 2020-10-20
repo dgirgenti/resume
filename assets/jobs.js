@@ -16,19 +16,23 @@ export default [
             },
         ],
         description: `
-* Architect, implement, and iterate on solutions across the front-end ecommerce platform, homepage to checkout (and beyond), for the **[Urban Outfitters](https://urbanoutfitters.com)**, **[Anthropologie](https://anthropologie.com)**, and **[Free People](https://freepeople.com/)** sites
+As a Senior Engineer at URBN, I architect, develop, and iterate on solutions across the entire front-end ecommerce platform for the **[Urban Outfitters](https://urbanoutfitters.com)**, **[Anthropologie](https://anthropologie.com)**, and **[Free People](https://freepeople.com/)** sites, including most recently a cutting-edge replatform to Vue and simultaneous development of a design system.
 
-* Serve in a supporting architecture role for the ongoing rollout of a cutting-edge Vue replatform focused on both server- and client-side application performance
+* Engineer solutions for the ongoing whitelabel Vue application rollout, focused on improving server- and client-side performance
 
-* Refine application resiliency and user experience through constant multivariate testing, analytics gathering, and meaningful logging
+* Establish and evolve team norms, standards, practices, and everyday principles of code and documentation for the web team
 
-* Provide guidance and feedback to engineers, product owners, and analysts regarding code quality, standards &amp; practices, architecture, performance, WCAG 2.1 AA compliance, business requirements, and domain knowledge
+* Increase architecture and domain knowledge of web engineers/QA through regular knoweldge sharing and education sessions
 
-* Achieved top-tier Lighthouse scores with the Vue application using strict automated performance budgets
+* Improve user experience by refining application resiliency with the help of multivariate testing, analytics gathering, and logging
 
-* Received universally-positive feedback for previously serving in the roles of Tech Lead on a team of 4 engineers/QA, and as Design System Architect collaborating with Design and UX stakeholders
+* Achieved top-tier Lighthouse metrics using strict automated performance budgets
 
-* Successfully onboarded engineers and QA to the Vue application while maintaining and sunsetting features from the former application
+* Led web team of 4 engineers/QA as Tech Lead, for which universally-positive feedback was received from peers and team members
+
+* Kicked-off creation of a global design system as UI Architect by collaborating with Design and UX from all 3 brands
+
+* Successfully onboarded engineers and QA to the Vue application while sunsetting features from the former application
 
 * Assisted in the oversight of external contractors during development of several features`,
         technologies: [
@@ -74,15 +78,17 @@ export default [
             },
         ],
         description: `
+Zoomi provides artificial intelligence as a service for elearning with multiple applications. As a full-stack engineer, I was responsible for developing front- and back-end projects.
+
 * Led the solutioning and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
-* Oversaw various features being developed by offshore engineers and QA
+* Oversaw successful feature releases on the student-facing content application developed by offshore engineers/QA
 
-* Interfaced with Fortune 500 clients, internal integration specialists, and academic researchers to gather and refine technical specifications and requirements
+* Interfaced with Fortune 500 clients, sales &amp; integration specialists, and academic researchers to gather and refine technical specifications and requirements
 
-* Engineered production features on both front- and back-end web applications
+* Engineered features on both educator- and student-facing applications and APIs
 
-* Increased the usefulness of analytics gathering tools to feed the artificial intelligence service`,
+* Implemented analytics gathering tools &amp; techniques to capture meaningful data and provide it to the artificial intelligence service`,
         technologies: [
             'Python',
             'Django',
@@ -109,9 +115,11 @@ export default [
             },
         ],
         description: `
-* Created a responsive front-end component library to be used by all internal and external web applications and converted the main application over to it
+I was a front-end engineer, responsible for developing Club OS's various front-end CRM applications for gyms and health centers.
 
-* Refactored, cleaned, and generally maintained the front-end codebases
+* Created a responsive front-end component library to be used by all internal and external web applications
+
+* Beautified the CRM application by converting from custom one-off components to the new shared library
 
 * Automated some commonly-performed tasks to assist in daily productivity
 
@@ -142,15 +150,17 @@ export default [
             },
         ],
         description: `
-* Created the interface for the highest-traffic page on the platform
+Ticketleap is a DIY event ticketing service. I was a Full-stack Developer ultimately involved in every aspect of the platform and website.
 
-* Designed, developed, and improved production features on the Python/Django application
+* Created the interface for the highest-traffic page on the platform, the event page
 
-* Turned Content &amp; Marketing's ideas into user experiences on the marketing site
+* Designed, developed, and improved features on the Python/Django application
+
+* Turned Content &amp; Marketing's ideas into interesting user experiences on the marketing site
 
 * Consulted with Product, QA, Design, UX, Customer Success, and other stakeholders to ensure business requirements were met
 
-* Performed a variety of platform maintenance, sysadmin, devops, and SEO implementation`,
+* Performed a variety of platform maintenance, system administration, devops, and SEO implementation`,
         technologies: [
             'Python',
             'Django',
@@ -179,6 +189,8 @@ export default [
             },
         ],
         description: `
+During this internship at Razorfish Health, a healthcare-focused design agency, I served as a front-end developer working on production sites.
+
 * Developed styling on two Webby Honoree sites
 
 * Implemented front-end of an application for one of the largest pharmacy benefit management organizations in the US
@@ -209,6 +221,8 @@ export default [
             },
         ],
         description: `
+Electronic Ink, a design agency, brought me on for a Summer internship and I was responsible for internal development tasks.
+
 * Learned the fundamentals of web application development
 
 * Created a web-based project scheduling and resource management application

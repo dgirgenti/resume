@@ -148,5 +148,9 @@ export default {
             display: none;
         }
     }
+
+    .summary {
+        margin-bottom: 10px;
+    }
 }
 </style>
