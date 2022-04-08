@@ -22,7 +22,7 @@ As a Senior Engineer at URBN, I architect, develop, and iterate on solutions acr
 
 * Establish and evolve team norms, standards, practices, and everyday principles of code and documentation for the web team
 
-* Increase architecture and domain knowledge of web engineers/QA through regular knoweldge sharing and education sessions
+* Support architecture and domain knowledge of web engineers/QA through regular knowledge sharing and education sessions
 
 * Improve user experience by refining application resiliency with the help of multivariate testing, analytics gathering, and logging
 
