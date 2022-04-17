@@ -1,6 +1,6 @@
 export default {
     name: 'Drexel University',
-    aside: '[College of Computing & Informatics](https://cci.drexel.edu)',
+    aside: '[College of Computing & Informatics](https://drexel.edu/cci/)',
     url: 'https://drexel.edu',
     positions: [
         {

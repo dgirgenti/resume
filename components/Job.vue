@@ -17,7 +17,7 @@
 
         <ul class="job__positions">
 
-            <li v-for="position in job.positions">
+            <li v-for="position in job.positions" :key="position.start">
 
                 <Position :position="position" />
 
@@ -28,17 +28,19 @@
         <p v-if="descriptionHTML" class="o-markdown job__description" v-html="descriptionHTML" />
 
         <p v-if="job.technologies" class="job__tech">
-        <h4 v-if="job.technologies" class="job__tech-heading">
-            Technologies:
-        </h4>
 
-        <span>
-            <template v-for="(technology, index) in job.technologies">
+            <h4 v-if="job.technologies" class="job__tech-heading">
+                Technologies:
+            </h4>
 
-                {{ technology }}{{ index !== job.technologies.length - 1 ? ', ' : '' }}
+            <span>
+                <template v-for="(technology, index) in job.technologies">
 
-            </template>
-        </span>
+                    {{ technology }}{{ index !== job.technologies.length - 1 ? ', ' : '' }}
+
+                </template>
+            </span>
+
         </p>
     </div>
 </template>
@@ -100,6 +102,14 @@ export default {
 @media print {
     .job {
         padding-bottom: 5px;
+
+        &__description {
+            li {
+                p {
+                    margin-bottom: 5px;
+                }
+            }
+        }
 
         &__name {
             font-size: 1.1rem;

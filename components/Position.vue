@@ -29,7 +29,7 @@ export default {
     &__meta {
         display: flex;
         justify-content: left;
-        align-items: center;
+        align-items: flex-end;
 
         @media screen and (max-width: 480px) {
             display: block;

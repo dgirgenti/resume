@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 export default [
     {
-        name: 'Urban Outfitters Inc',
-        aside: '(URBN)',
+        name: 'Urban Outfitters, Inc.',
+        aside: '"URBN"',
         url: 'https://urbn.com',
         positions: [
             {
@@ -16,41 +16,36 @@ export default [
             },
         ],
         description: `
-As a Senior Engineer at URBN, I architect, develop, and iterate on solutions across the entire front-end ecommerce platform for the **[Urban Outfitters](https://urbanoutfitters.com)**, **[Anthropologie](https://anthropologie.com)**, and **[Free People](https://freepeople.com/)** sites, including most recently a cutting-edge replatform to Vue and simultaneous development of a design system.
+As a Senior Engineer at URBN, I architect and develop solutions for the whitelabel front-end ecommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
 
-* Engineer solutions for the ongoing whitelabel Vue application rollout, focused on improving server- and client-side performance
+* Engineer user experiences on a SSR Vue platform with a focus on performance
 
-* Establish and evolve team norms, standards, practices, and everyday principles of code and documentation for the web team
+* Maintain top-tier Web Vitals metrics using the latest best-practices and strict automated budgets
 
-* Support architecture and domain knowledge of web engineers/QA through regular knowledge sharing and education sessions
+* Educate peers with frequent knowledge sharing, mentorship, onboarding, documentation, and code review
 
-* Improve user experience by refining application resiliency with the help of multivariate testing, analytics gathering, and logging
+* Improve application resilience through multivariate testing, analytics, logging, and custom metrics gathering
 
-* Achieved top-tier Lighthouse metrics using strict automated performance budgets
+* Optimize dataflows by coordinating on solutions with teams across the IT organization
 
-* Led web team of 4 engineers/QA as Tech Lead, for which universally-positive feedback was received from peers and team members
+* Gather technical requirements for incoming work to refine tickets with product owners and analysts
 
-* Kicked-off creation of a global design system as UI Architect by collaborating with Design and UX from all 3 brands
+* Led the launch of several features to production as Technical Lead of a web vertical team
 
-* Successfully onboarded engineers and QA to the Vue application while sunsetting features from the former application
-
-* Assisted in the oversight of external contractors during development of several features`,
+* Kicked off a global UI design system in collaboration with UX and Designers`, 
         technologies: [
-            'JavaScript (es5 to es2020)',
+            'JavaScript',
+            'Vue (vuex, vue-router, vue-server-renderer, vue-i18n)',
+            'Node',
+            'Webpack',
+            'nginx',
             'Python 3',
             'Tornado',
-            'Vue',
-            'Vuex',
             'Redux',
-            'Webpack',
             'Docker',
-            'nginx',
             'express',
-            'axios',
-            'gulp',
             'SCSS',
-            'Jinja',
-            'Nunjucks',
+            'Core Web Vitals',
             'Lighthouse',
             'PWMetrics',
             'Storybook',
@@ -58,13 +53,6 @@ As a Senior Engineer at URBN, I architect, develop, and iterate on solutions acr
             'Contentful',
             'Sentry',
             'Jenkins',
-            'nosetest',
-            'jest',
-            'jasmine',
-            'Git',
-            'Jira',
-            'Abstract',
-            'Sketch',
         ],
     },
     {
@@ -84,11 +72,11 @@ Zoomi provides artificial intelligence as a service for elearning with multiple 
 
 * Oversaw successful feature releases on the student-facing content application developed by offshore engineers/QA
 
-* Interfaced with Fortune 500 clients, sales &amp; integration specialists, and academic researchers to gather and refine technical specifications and requirements
+* Interfaced with Fortune 500 clients, sales/integration specialists, and academic researchers to gather and refine technical specifications and requirements
 
 * Engineered features on both educator- and student-facing applications and APIs
 
-* Implemented analytics gathering tools &amp; techniques to capture meaningful data and provide it to the artificial intelligence service`,
+* Implemented analytics gathering tools/techniques to capture meaningful data and provide it to the artificial intelligence service`,
         technologies: [
             'Python',
             'Django',
@@ -115,17 +103,17 @@ Zoomi provides artificial intelligence as a service for elearning with multiple 
             },
         ],
         description: `
-I was a front-end engineer, responsible for developing Club OS's various front-end CRM applications for gyms and health centers.
+Club OS provides front-end CRM applications for gyms and health centers. I was a front-end engineer
 
 * Created a responsive front-end component library to be used by all internal and external web applications
 
-* Beautified the CRM application by converting from custom one-off components to the new shared library
+* Beautified the CRM application by converting from custom one-off components to a shared component library
 
-* Automated some commonly-performed tasks to assist in daily productivity
+* Automated commonly-performed tasks to assist in engineers' daily productivity
 
-* Created and modified custom CRM forms with input from external stakeholders`,
+* Created and modified custom CRM forms, collaborating with internal and external stakeholders`,
         technologies: [
-            'JavaScript (es6)',
+            'JavaScript',
             'Node',
             'gulp',
             'HTML',
@@ -150,13 +138,13 @@ I was a front-end engineer, responsible for developing Club OS's various front-e
             },
         ],
         description: `
-Ticketleap is a DIY event ticketing service. I was a Full-stack Developer ultimately involved in every aspect of the platform and website.
+Ticketleap is a DIY event ticketing service. I was a Full-stack Developer working on the front- and back-ends of the platform.
 
 * Created the interface for the highest-traffic page on the platform, the event page
 
 * Designed, developed, and improved features on the Python/Django application
 
-* Turned Content &amp; Marketing's ideas into interesting user experiences on the marketing site
+* Transformed Content/Marketing's ideas into unique user experiences on the marketing site
 
 * Consulted with Product, QA, Design, UX, Customer Success, and other stakeholders to ensure business requirements were met
 
@@ -189,7 +177,7 @@ Ticketleap is a DIY event ticketing service. I was a Full-stack Developer ultima
             },
         ],
         description: `
-During this internship at Razorfish Health, a healthcare-focused design agency, I served as a front-end developer working on production sites.
+At Razorfish Health, a healthcare-focused design agency, I served as a front-end developer working on several projects.
 
 * Developed styling on two Webby Honoree sites
 
@@ -227,7 +215,7 @@ Electronic Ink, a design agency, brought me on for a Summer internship and I was
 
 * Created a web-based project scheduling and resource management application
 
-* Intern things`,
+* Various other intern things`,
         technologies: [
             'XHTML',
             'CSS',

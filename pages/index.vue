@@ -8,6 +8,7 @@
             <section class="links links--screen">
                 <a
                     v-for="link in seo.links"
+                    :key="link.name"
                     :href="link.href"
                     target="_blank"
                     class="o-link links__link">{{ link.name }}</a>
@@ -16,15 +17,12 @@
             <section class="links links--print">
                 <a
                     v-for="link in seo.links"
+                    :key="link.href"
                     :href="link.href"
                     class="links__link links__link--print">{{ link.name }}: {{ link.print }}</a>
             </section>
 
             <section>
-                <SectionHeader>
-                    summary
-                </SectionHeader>
-
                 <p class="summary">
                     {{ seo.description }}
                 </p>
@@ -37,14 +35,14 @@
 
                 <ul class="jobs">
 
-                    <li v-for="job in jobs" class="jobs__job">
+                    <li v-for="job in jobs" :key="job.name" class="jobs__job">
                         <Job :job="job" />
                     </li>
 
                 </ul>
             </section>
 
-            <section>
+            <section class="education">
                 <SectionHeader>
                     education
                 </SectionHeader>
@@ -126,11 +124,16 @@ export default {
 
 .jobs {
     &__job {
+        break-inside: avoid-page;
+
         &:not(:last-child) {
-            border-bottom: 1px solid #ddd;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
     }
+}
+
+.education {
+    break-inside: avoid-page;
 }
 
 @media print {
