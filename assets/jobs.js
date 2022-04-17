@@ -16,7 +16,7 @@ export default [
             },
         ],
         description: `
-As a Senior Engineer at URBN, I architect and develop solutions for the whitelabel front-end ecommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
+As a Senior Engineer at URBN, I architect and develop solutions for the white label front-end ecommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
 
 * Engineer user experiences on a SSR Vue platform with a focus on performance
 
