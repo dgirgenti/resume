@@ -16,34 +16,34 @@ export default [
             },
         ],
         description: `
-As a Senior Engineer at URBN, I architect and develop solutions for the white label front-end ecommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
+As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for the white label front-end eCommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
 
-* Engineer user experiences on a SSR Vue platform with a focus on performance
+* Lead the development and implementation of platform and UI features on an SSR Vue app with a focus on performant architecture
 
-* Maintain top-tier Web Vitals metrics using the latest best-practices and strict automated budgets
+* Plan epics/tickets with PMs/POs/BAs by gathering and documenting technical requirements
 
-* Educate peers with frequent knowledge sharing, mentorship, onboarding, documentation, and code review
+* Educate peers with frequent knowledge-sharing, mentorship, onboarding, documentation, and code review
 
-* Improve application resilience through multivariate testing, analytics, logging, and custom metrics gathering
+* Audit and optimize dataflows by coordinating solutions across the stack (ops, microservices, vendors)
 
-* Optimize dataflows by coordinating on solutions with teams across the IT organization
+* Ensure application resilience through multivariate testing, analytics, logging, and custom metrics gathering
 
-* Gather technical requirements for incoming work to refine tickets with product owners and analysts
+* Maintain top-tier Web Vitals metrics using the latest best practices and strict automated budgets
 
-* Led the launch of several features to production as Technical Lead of a web vertical team
-
-* Kicked off a global UI design system in collaboration with UX and Designers`, 
+* Kicked off a global UI/UX design system as UI Architect in collaboration with designers and a11y experts`, 
         technologies: [
             'JavaScript',
             'Vue (vuex, vue-router, vue-server-renderer, vue-i18n)',
             'Node',
             'Webpack',
-            'nginx',
+            'NGINX',
             'Python 3',
             'Tornado',
             'Redux',
             'Docker',
             'express',
+            'Sentry',
+            'Jenkins',
             'SCSS',
             'Core Web Vitals',
             'Lighthouse',
@@ -51,8 +51,6 @@ As a Senior Engineer at URBN, I architect and develop solutions for the white la
             'Storybook',
             'WCAG 2.1 AA',
             'Contentful',
-            'Sentry',
-            'Jenkins',
         ],
     },
     {
@@ -66,9 +64,9 @@ As a Senior Engineer at URBN, I architect and develop solutions for the white la
             },
         ],
         description: `
-Zoomi provides artificial intelligence as a service for elearning with multiple applications. As a full-stack engineer, I was responsible for developing front- and back-end projects.
+Zoomi provides artificial intelligence as a service for eLearning with multiple applications. As a full-stack engineer, I took ownership on features across the stack.
 
-* Led the solutioning and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
+* Led the solutions design and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
 * Oversaw successful feature releases on the student-facing content application developed by offshore engineers/QA
 
@@ -82,11 +80,11 @@ Zoomi provides artificial intelligence as a service for elearning with multiple 
             'Django',
             'AWS',
             'Docker',
-            'nginx',
+            'NGINX',
             'JavaScript (es6)',
             'Backbone.js',
             'Webpack',
-            'gulp',
+            'Gulp',
             'Git',
             'Jira',
             'SCORM',
@@ -103,9 +101,9 @@ Zoomi provides artificial intelligence as a service for elearning with multiple 
             },
         ],
         description: `
-Club OS provides front-end CRM applications for gyms and health centers. I was a front-end engineer
+Club OS provides front-end CRM applications for gyms and health centers. I was a front-end engineer during a re-theming of the core CRM app.
 
-* Created a responsive front-end component library to be used by all internal and external web applications
+* Created a responsive front-end component library for all internal and external web applications
 
 * Beautified the CRM application by converting from custom one-off components to a shared component library
 
@@ -115,7 +113,7 @@ Club OS provides front-end CRM applications for gyms and health centers. I was a
         technologies: [
             'JavaScript',
             'Node',
-            'gulp',
+            'Gulp',
             'HTML',
             'Responsive CSS',
             'SCSS',
@@ -144,11 +142,11 @@ Ticketleap is a DIY event ticketing service. I was a Full-stack Developer workin
 
 * Designed, developed, and improved features on the Python/Django application
 
-* Transformed Content/Marketing's ideas into unique user experiences on the marketing site
+* Transformed Content/Marketing ideas into unique user experiences on the marketing site
 
-* Consulted with Product, QA, Design, UX, Customer Success, and other stakeholders to ensure business requirements were met
+* Consulted with Product, QA, Design, UX, Customer Success, and other stakeholders to ensure business requirements
 
-* Performed a variety of platform maintenance, system administration, devops, and SEO implementation`,
+* Performed a variety of platform maintenance, system administration, DevOps, and SEO implementation`,
         technologies: [
             'Python',
             'Django',
@@ -209,13 +207,13 @@ At Razorfish Health, a healthcare-focused design agency, I served as a front-end
             },
         ],
         description: `
-Electronic Ink, a design agency, brought me on for a Summer internship and I was responsible for internal development tasks.
+Electronic Ink, a design agency, brought me on for a summer internship and I was responsible for internal development tasks.
 
 * Learned the fundamentals of web application development
 
 * Created a web-based project scheduling and resource management application
 
-* Various other intern things`,
+* Intern things`,
         technologies: [
             'XHTML',
             'CSS',
