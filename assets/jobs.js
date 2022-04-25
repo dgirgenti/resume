@@ -18,7 +18,7 @@ export default [
         description: `
 As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for the white label front-end eCommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
 
-* Lead the development and implementation of platform and UI features on an SSR Vue app focused on performant architecture
+* Architect, lead, and implement features for the platform and UI of an SSR Vue application
 
 * Plan epics/tickets with PMs/POs/BAs by gathering and documenting technical requirements
 
@@ -26,7 +26,9 @@ As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for
 
 * Audit and optimize dataflows by coordinating solutions across the stack (ops, microservices, vendors)
 
-* Ensure application resilience through multivariate testing, analytics, logging, and custom metrics gathering
+* Confirm feature viability by implementing A/B or multivariate tests with trackable KPIs
+
+* Ensure application resilience through unit/e2e testing, analytics, logging, and custom metrics gathering
 
 * Maintain top-tier Web Vitals metrics using the latest best practices and strict automated budgets
 
@@ -34,22 +36,24 @@ As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for
         technologies: [
             'JavaScript',
             'Vue (vuex, vue-router, vue-server-renderer, vue-i18n)',
-            'Node',
+            'CSS',
+            'SCSS',
             'Webpack',
+            'Express',
+            'Node',
             'NGINX',
+            'Docker',
+            'Jest',
             'Python 3',
             'Tornado',
             'Redux',
-            'Docker',
-            'express',
             'Sentry',
             'Jenkins',
-            'SCSS',
-            'Core Web Vitals',
-            'Lighthouse',
-            'PWMetrics',
-            'Storybook',
             'WCAG 2.1 AA',
+            'Git',
+            'Jira',
+            'Lighthouse',
+            'Storybook',
             'Contentful',
         ],
     },
@@ -64,7 +68,7 @@ As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for
             },
         ],
         description: `
-Zoomi provides artificial intelligence as a service for eLearning with multiple applications. As a full-stack engineer, I took ownership on features across the stack.
+Zoomi provides artificial intelligence as a service for eLearning with multiple applications. As a full-stack engineer, I took ownership of features across the stack.
 
 * Led the solutions design and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
@@ -81,8 +85,8 @@ Zoomi provides artificial intelligence as a service for eLearning with multiple 
             'AWS',
             'Docker',
             'NGINX',
-            'JavaScript (es6)',
-            'Backbone.js',
+            'JavaScript',
+            'Backbone',
             'Webpack',
             'Gulp',
             'Git',
@@ -105,7 +109,7 @@ Club OS provides front-end CRM applications for gyms and health centers. I was a
 
 * Created a responsive front-end component library for all internal and external web applications
 
-* Beautified the CRM application by converting from custom one-off components to a shared component library
+* Beautified the CRM application by creating a shared library of UI components
 
 * Automated commonly-performed tasks to assist in engineers' daily productivity
 
@@ -115,11 +119,12 @@ Club OS provides front-end CRM applications for gyms and health centers. I was a
             'Node',
             'Gulp',
             'HTML',
-            'Responsive CSS',
+            'CSS',
             'SCSS',
             'Travis CI',
             'Java',
-            'JSP/JSTL',
+            'JSP', 
+            'JSTL',
             'Jekyll',
             'Git',
             'Jira',
@@ -153,7 +158,7 @@ Ticketleap is a DIY event ticketing service. I was a Full-stack Developer workin
             'AWS (S3, EC2, ELB, SNS)',
             'JavaScript',
             'jQuery',
-            'Responsive CSS',
+            'CSS',
             'SCSS',
             'Require.js',
             'Grunt',

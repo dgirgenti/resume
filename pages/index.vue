@@ -22,8 +22,8 @@
                     class="links__link links__link--print">{{ link.name }}: {{ link.print }}</a>
             </section>
 
-            <section>
-                <p class="summary">
+            <section class="summary">
+                <p class="summary__body">
                     {{ seo.description }}
                 </p>
             </section>
@@ -119,7 +119,9 @@ export default {
 }
 
 .summary {
-    margin-bottom: 15px;
+    &__body {
+        margin-bottom: 15px;
+    }
 }
 
 .jobs {
@@ -127,7 +129,7 @@ export default {
         break-inside: avoid-page;
 
         &:not(:last-child) {
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
     }
 }
@@ -153,7 +155,11 @@ export default {
     }
 
     .summary {
-        margin-bottom: 10px;
+        margin-bottom: 0;
+
+        &__body {
+            margin-bottom: 10px;
+        }
     }
 }
 </style>
