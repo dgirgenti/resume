@@ -16,23 +16,25 @@ export default [
             },
         ],
         description: `
-As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for the white label front-end eCommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
+As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for the white label front-end eCommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**. I've played a part in every aspect of the front end, where most recently we migrated the platform to server-rendered Vue with performance and accessibility at the forefront.
 
-* Architect, lead, and implement features for the platform and UI of an SSR Vue application
+* Architect and implement the core platform and UI features for a cutting-edge SSR Vue application
 
-* Plan epics/tickets with PMs/POs/BAs by gathering and documenting technical requirements
-
-* Educate peers with frequent knowledge-sharing, mentorship, onboarding, documentation, and code review
-
-* Audit and optimize dataflows by coordinating solutions across the stack (ops, microservices, vendors)
-
-* Confirm feature viability by implementing A/B or multivariate tests with trackable KPIs
+* Maintain top-tier performance metrics using the latest best practices and strict automated budgets
 
 * Ensure application resilience through unit/e2e testing, analytics, logging, and custom metrics gathering
 
-* Maintain top-tier Web Vitals metrics using the latest best practices and strict automated budgets
+* Educate team members with knowledge-sharing, mentorship, onboarding, documentation, and thoughtful code review
 
-* Kicked off a global UI/UX design system as UI Architect in collaboration with designers and a11y experts`, 
+* Confirm feature viability by implementing A/B or multivariate tests with trackable KPIs
+
+* Audit and optimize dataflows by coordinating solutions across the stack (Mobile apps, Microservices, DevOps, Vendors)
+
+* Plan epics/tickets with Product and Analysts by gathering, refining, and documenting technical requirements
+
+* Served in varying capacities as platform architecture engineer, UI architect, team lead, and technical lead
+
+* Kicked off a global UI/UX design system in collaboration with UX, brand designers, and a11y experts`, 
         technologies: [
             'JavaScript',
             'Vue (vuex, vue-router, vue-server-renderer, vue-i18n)',
@@ -68,17 +70,17 @@ As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for
             },
         ],
         description: `
-Zoomi provides artificial intelligence as a service for eLearning with multiple applications. As a full-stack engineer, I took ownership of features across the stack.
+Zoomi provides artificial intelligence as a service for eLearning. As a full-stack engineer, I took ownership of features across the stack.
 
 * Led the solutions design and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
-* Oversaw successful feature releases on the student-facing content application developed by offshore engineers/QA
-
-* Interfaced with Fortune 500 clients, sales/integration specialists, and academic researchers to gather and refine technical specifications and requirements
-
 * Engineered features on both educator- and student-facing applications and APIs
 
-* Implemented analytics gathering tools/techniques to capture meaningful data and provide it to the artificial intelligence service`,
+* Oversaw successful feature releases on the student-facing content application developed by offshore engineers/QA
+
+* Interfaced with Fortune 500 clients, integration specialists, and academics to gather and refine platform requirements
+
+* Implemented analytics gathering to capture user actions for the artificial intelligence service`,
         technologies: [
             'Python',
             'Django',
@@ -105,9 +107,9 @@ Zoomi provides artificial intelligence as a service for eLearning with multiple 
             },
         ],
         description: `
-Club OS provides front-end CRM applications for gyms and health centers. I was a front-end engineer during a re-theming of the core CRM app.
+Club OS provides CRM applications for gyms and health centers. I helped implement an updated UI for the CRM.
 
-* Created a responsive front-end component library for all internal and external web applications
+* Created a responsive front end component library for all internal and external web applications
 
 * Beautified the CRM application by creating a shared library of UI components
 
@@ -184,7 +186,7 @@ At Razorfish Health, a healthcare-focused design agency, I served as a front-end
 
 * Developed styling on two Webby Honoree sites
 
-* Implemented front-end of an application for one of the largest pharmacy benefit management organizations in the US
+* Implemented the front end of an application for one of the largest pharmacy benefit management organizations in the US
 
 * Converted Photoshop and Fireworks designs into functional web applications
 

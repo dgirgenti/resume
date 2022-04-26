@@ -2,7 +2,7 @@
 export default {
     title: 'Dan Girgenti',
     shortDesc: 'Philadelphia-based software engineer',
-    description: 'Philadelphia-based engineer focused on beautiful, performant user experiences. I dig 4-space tabs and trailing commas. 👋',
+    description: 'Philly-based web engineer focused on beautiful, performant user experiences. I dig 4-space tabs and trailing commas. 👋',
     links: [
         {
             name: 'email',
