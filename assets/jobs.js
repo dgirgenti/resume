@@ -1,13 +1,45 @@
 /* eslint-disable max-len */
 export default [
     {
+        name: 'Adobe Inc.',
+        url: 'https://adobe.com',
+        positions: [{
+            name: 'UI Software Development Engineer',
+            start: 'August 2022',
+        }],
+        description: `
+Adobe is a software company known for its tools supporting media creation and publishing. As a UI Engineer within the collaboration experiences org, I develop components serving the cloud document ecosystem.
+
+* Engineer microfrontend UI solutions for cloud asset browsing, management, and selection
+
+* Gather and disambiguate business feature requests into actionable engineering task requirements
+
+* Support feature parity and integration with host clients such as Photoshop, Illustrator, and Creative Cloud
+
+* Evangelize and develop a culture around strict best practices and coding standards through consensus
+
+* Advocate for and champion alternative processes to improve engineer workflow and productivity`,
+        technologies: [
+            'TypeScript',
+            'JavaScript',
+            'React',
+            'MobX',
+            'Webpack',
+            'Node',
+            'Jest',
+            'Git',
+            'Jira',
+        ]
+    },
+    {
         name: 'Urban Outfitters, Inc.',
-        aside: '"URBN"',
+        aside: '(URBN)',
         url: 'https://urbn.com',
         positions: [
             {
                 name: 'Senior Software Engineer',
                 start: 'April 2019',
+                end: 'July 2022',
             },
             {
                 name: 'Software Engineer',
@@ -16,25 +48,25 @@ export default [
             },
         ],
         description: `
-As a Senior Engineer at URBN, I architect, develop, and iterate on solutions for the white label front-end eCommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**. I've played a part in every aspect of the front end, where most recently we migrated the platform to server-rendered Vue with performance and accessibility at the forefront.
+URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer at URBN, I architected, developed, and iterated on solutions for the white-label front-end eCommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
 
-* Architect and implement the core platform and UI features for a cutting-edge SSR Vue application
+* Served in varying capacities as platform architecture engineer, design system architect, team lead, and technical lead
 
-* Maintain top-tier performance metrics using the latest best practices and strict automated budgets
+* Architected and implemented core platform and UI features for a cutting-edge SSR Vue application
 
-* Ensure application resilience through unit/e2e testing, analytics, logging, and custom metrics gathering
+* Maintained top-tier performance metrics using the latest best practices and strict automated budgets
 
-* Educate team members with knowledge-sharing, mentorship, onboarding, documentation, and thoughtful code review
+* Educated team members with knowledge-sharing, mentorship, onboarding, documentation, and thoughtful code review
 
-* Confirm feature viability by implementing A/B or multivariate tests with trackable KPIs
+* Ensured application resilience through unit/e2e testing, analytics, logging, and custom metrics gathering
 
-* Audit and optimize dataflows by coordinating solutions across the stack (Mobile apps, Microservices, DevOps, Vendors)
+* Confirmed feature viability by implementing A/B or multivariate tests with trackable KPIs
 
-* Plan epics/tickets with Product and Analysts by gathering, refining, and documenting technical requirements
+* Audited and optimized dataflows by coordinating solutions across the stack (Mobile apps, Microservices, DevOps, Vendors)
 
-* Served in varying capacities as platform architecture engineer, UI architect, team lead, and technical lead
+* Planned epics/tickets with Product and Analysts by gathering, refining, and documenting technical requirements
 
-* Kicked off a global UI/UX design system in collaboration with UX, brand designers, and a11y experts`, 
+* Kicked off a global UI/UX design system in collaboration with UX, brand designers, and a11y experts`,
         technologies: [
             'JavaScript',
             'Vue (vuex, vue-router, vue-server-renderer, vue-i18n)',
@@ -107,9 +139,9 @@ Zoomi provides artificial intelligence as a service for eLearning. As a full-sta
             },
         ],
         description: `
-Club OS provides CRM applications for gyms and health centers. I helped implement an updated UI for the CRM.
+Club OS is a customized CRM platform for gyms and health centers. As a Front-end Engineer, I worked on a greenfield UI refresh.
 
-* Created a responsive front end component library for all internal and external web applications
+* Created a responsive front-end component library for all internal and external web applications
 
 * Beautified the CRM application by creating a shared library of UI components
 
@@ -125,7 +157,7 @@ Club OS provides CRM applications for gyms and health centers. I helped implemen
             'SCSS',
             'Travis CI',
             'Java',
-            'JSP', 
+            'JSP',
             'JSTL',
             'Jekyll',
             'Git',
@@ -143,7 +175,7 @@ Club OS provides CRM applications for gyms and health centers. I helped implemen
             },
         ],
         description: `
-Ticketleap is a DIY event ticketing service. I was a Full-stack Developer working on the front- and back-ends of the platform.
+Ticketleap is a DIY event ticketing service. I was a Full-stack Developer working on the front and back ends of the platform.
 
 * Created the interface for the highest-traffic page on the platform, the event page
 
@@ -205,7 +237,8 @@ At Razorfish Health, a healthcare-focused design agency, I served as a front-end
     },
     {
         name: 'Electronic Ink',
-        aside: '(now part of [**Capgemini Invent**](https://www.capgemini.com/us-en/service/invent/))',
+        url: 'https://www.capgemini.com/us-en/service/invent/',
+        aside: '(now **Capgemini Invent**)',
         positions: [
             {
                 name: 'Technology Intern',

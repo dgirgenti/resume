@@ -46,4 +46,11 @@ export default {
     }
 }
 
+@media print {
+    .position {
+        &__name {
+            font-size: 1rem;
+        }
+    }
+}
 </style>

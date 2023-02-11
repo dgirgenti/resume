@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 export default {
     title: 'Dan Girgenti',
-    shortDesc: 'Philadelphia-based software engineer',
-    description: 'Philly-based web engineer focused on beautiful, performant user experiences. I dig 4-space tabs and trailing commas. 👋',
+    shortDesc: 'Bay Area-based software engineer, road cyclist, ultralight backpacker, and electronic musician',
+    description: 'Bay Area-based web engineer, road cyclist, ultralight backpacker, and electronic musician with a professional focus on beautiful, performant user experiences. I dig 4-space tabs and trailing commas. 👋',
     links: [
         {
             name: 'email',
@@ -11,7 +11,7 @@ export default {
         },
         {
             name: 'linkedin',
-            href: 'https://www.linkedin.com/in/dgirgenti',
+            href: 'https://linkedin.com/in/dgirgenti',
             print: 'linkedin.com/in/dgirgenti',
         },
         {

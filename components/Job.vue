@@ -2,7 +2,9 @@
     <div class="job">
         <h3 class="job__name">
 
-            <a v-if="job.url" :href="job.url" class="o-link">{{ job.name }}</a>
+            <a v-if="job.url" :href="job.url" class="o-link" target="_blank">
+                {{ job.name }}
+            </a>
 
             <template v-else>
                 {{ job.name }}
@@ -11,7 +13,7 @@
             <span
                 v-if="asideHTML"
                 class="o-markdown job__aside"
-                v-html="asideHTML" />
+                v-html="asideHTML"> </span>
 
         </h3>
 
@@ -27,21 +29,15 @@
 
         <p v-if="descriptionHTML" class="o-markdown job__description" v-html="descriptionHTML" />
 
-        <p v-if="job.technologies" class="job__tech">
-
-            <h4 v-if="job.technologies" class="job__tech-heading">
+        <div v-if="job.technologies" class="job__tech">
+            <h4 class="job__tech-heading">
                 Technologies:
             </h4>
 
             <span>
-                <template v-for="(technology, index) in job.technologies">
-
-                    {{ technology }}{{ index !== job.technologies.length - 1 ? ', ' : '' }}
-
-                </template>
+                {{ technologies }}
             </span>
-
-        </p>
+        </div>
     </div>
 </template>
 
@@ -67,6 +63,9 @@ export default {
         },
         descriptionHTML() {
             return this.job.description ? marked(this.job.description) : null;
+        },
+        technologies() {
+            return this.job.technologies ? this.job.technologies.join(', ') : null;
         },
     },
 };
@@ -112,7 +111,7 @@ export default {
         }
 
         &__name {
-            font-size: 1.1rem;
+            font-size: 1.05rem;
         }
 
         &__positions {

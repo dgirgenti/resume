@@ -1,26 +1,28 @@
 <template>
     <div class="container">
         <div>
-            <h1 class="title">
-                Dan Girgenti
-            </h1>
+            <div class="topper">
+                <h1 class="title">
+                    Dan Girgenti
+                </h1>
 
-            <section class="links links--screen">
-                <a
-                    v-for="link in seo.links"
-                    :key="link.name"
-                    :href="link.href"
-                    target="_blank"
-                    class="o-link links__link">{{ link.name }}</a>
-            </section>
+                <section class="links links--screen">
+                    <a
+                        v-for="link in seo.links"
+                        :key="link.name"
+                        :href="link.href"
+                        target="_blank"
+                        class="o-link links__link">{{ link.name }}</a>
+                </section>
 
-            <section class="links links--print">
-                <a
-                    v-for="link in seo.links"
-                    :key="link.href"
-                    :href="link.href"
-                    class="links__link links__link--print">{{ link.name }}: {{ link.print }}</a>
-            </section>
+                <section class="links links--print">
+                    <a
+                        v-for="link in seo.links"
+                        :key="link.href"
+                        :href="link.href"
+                        class="links__link links__link--print">{{ link.name }}: {{ link.print }}</a>
+                </section>
+            </div>
 
             <section class="summary">
                 <p class="summary__body">
@@ -89,7 +91,7 @@ export default {
 
     &--print {
         display: none;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     &__link {
@@ -107,7 +109,7 @@ export default {
         &:hover,
         &:focus,
         &:active {
-            box-shadow: inset 0 0 0 4px #ddd;
+            box-shadow: inset 0 0 0 4px rgba(#a8498a, 0.5);
         }
 
         &--print {
@@ -139,14 +141,21 @@ export default {
 }
 
 @media print {
-    .title {
-        font-size: 1.2rem;
+    .topper {
+        display: flex;
+        align-items: center;
         margin-bottom: 5px;
+        padding: 0 10px;
+    }
+
+    .title {
+        display: inline;
+        font-size: 1.2rem;
     }
 
     .links {
         &--print {
-            display: block;
+            display: inline-block;
         }
 
         &--screen {
