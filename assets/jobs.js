@@ -10,11 +10,11 @@ export default [
         description: `
 Adobe is a software company known for its tools supporting media creation and publishing. As a UI Engineer within the collaboration experiences org, I develop components serving the cloud document ecosystem.
 
-* Engineer microfrontend UI solutions for cloud asset browsing, management, and selection
-
-* Gather and disambiguate business feature requests into actionable engineering task requirements
+* Engineer microfrontend UI solutions for browsing, management, and selection of cloud assets
 
 * Support feature parity and integration with host clients such as Photoshop, Illustrator, and Creative Cloud
+
+* Gather and disambiguate business feature requests into actionable engineering task requirements
 
 * Evangelize and develop a culture around strict best practices and coding standards through consensus
 
