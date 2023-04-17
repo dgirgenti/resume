@@ -52,9 +52,9 @@ Adobe is a software company known for its tools supporting media creation and pu
             },
         ],
         description: `
-URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer at URBN, I architected, developed, and iterated on solutions for the white-label front-end eCommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
+URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer at URBN, I architected, developed, and iterated on the white-label front-end eCommerce platform serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
 
-* Served in varying capacities as platform architecture engineer, design system architect, and technical lead
+* Served as platform architecture engineer, design system architect, and technical lead
 
 * Architected and implemented core platform and UI features for a cutting-edge SSR Vue application from the ground up
 
