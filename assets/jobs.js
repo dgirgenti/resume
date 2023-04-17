@@ -6,19 +6,22 @@ export default [
         positions: [{
             name: 'UI Software Development Engineer',
             start: 'August 2022',
+            end: 'April 2023',
         }],
         description: `
-Adobe is a software company known for its tools supporting media creation and publishing. As a UI Engineer within the collaboration experiences org, I develop components serving the cloud document ecosystem.
+Adobe is a software company known for its tools supporting media creation and publishing. As a UI Engineer within the collaboration experiences org, I developed components serving the cloud document ecosystem.
 
-* Engineer microfrontend UI solutions for browsing, management, and selection of cloud assets
+* Engineered microfrontend UI solutions for browsing, management, and selection of cloud assets
 
-* Support feature parity and integration with host clients such as Photoshop, Illustrator, and Creative Cloud
+* Supported feature parity and integration with host clients such as Photoshop, Illustrator, XD, and Creative Cloud
 
-* Gather and disambiguate business feature requests into actionable engineering task requirements
+* Evangelized team culture around a consensus-based approach to maintaining best practices and coding standards
 
-* Evangelize and develop a culture around strict best practices and coding standards through consensus
+* Advocated for improved developer workflows and quality-of-life by identifying gaps in engineering processes
 
-* Advocate for and champion alternative processes to improve engineer workflow and productivity`,
+* Refined feature UX expectations by coordinating with Product, Team Lead, and Engineers around the org
+
+* Disambiguated business feature requests into actionable engineering task requirements`,
         technologies: [
             'TypeScript',
             'JavaScript',
@@ -27,6 +30,7 @@ Adobe is a software company known for its tools supporting media creation and pu
             'Webpack',
             'Node',
             'Jest',
+            'Enzyme',
             'Git',
             'Jira',
         ]
@@ -50,39 +54,42 @@ Adobe is a software company known for its tools supporting media creation and pu
         description: `
 URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer at URBN, I architected, developed, and iterated on solutions for the white-label front-end eCommerce platform of **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
 
-* Served in varying capacities as platform architecture engineer, design system architect, team lead, and technical lead
+* Served in varying capacities as platform architecture engineer, design system architect, and technical lead
 
-* Architected and implemented core platform and UI features for a cutting-edge SSR Vue application
+* Architected and implemented core platform and UI features for a cutting-edge SSR Vue application from the ground up
+
+* Supported team members with thoughtful code review, knowledge-sharing, mentorship, onboarding, and documentation
+
+* Audited and optimized dataflows by coordinating solutions across the org (Mobile, Services, DevOps, Vendors)
 
 * Maintained top-tier performance metrics using the latest best practices and strict automated budgets
 
-* Educated team members with knowledge-sharing, mentorship, onboarding, documentation, and thoughtful code review
-
 * Ensured application resilience through unit/e2e testing, analytics, logging, and custom metrics gathering
 
-* Confirmed feature viability by implementing A/B or multivariate tests with trackable KPIs
-
-* Audited and optimized dataflows by coordinating solutions across the stack (Mobile apps, Microservices, DevOps, Vendors)
+* Confirmed feature business viability by implementing A/B or multivariate tests with trackable KPIs/OKRs
 
 * Planned epics/tickets with Product and Analysts by gathering, refining, and documenting technical requirements
 
 * Kicked off a global UI/UX design system in collaboration with UX, brand designers, and a11y experts`,
         technologies: [
             'JavaScript',
-            'Vue (vuex, vue-router, vue-server-renderer, vue-i18n)',
+            'Python',
+            'Vue',
+            'Vuex',
+            'Pinia',
+            'Redux',
             'CSS',
             'SCSS',
-            'Webpack',
             'Express',
+            'Tornado',
+            'Webpack',
             'Node',
             'NGINX',
             'Docker',
             'Jest',
-            'Python 3',
-            'Tornado',
-            'Redux',
             'Sentry',
             'Jenkins',
+            'Core Web Vitals',
             'WCAG 2.1 AA',
             'Git',
             'Jira',
@@ -102,9 +109,9 @@ URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer 
             },
         ],
         description: `
-Zoomi provides artificial intelligence as a service for eLearning. As a full-stack engineer, I took ownership of features across the stack.
+Zoomi provides AI-as-a-service for eLearning. As a full-stack engineer, I took ownership of features from the UI to the cloud.
 
-* Led the solutions design and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
+* Led the design and implementation of an application solution to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
 * Engineered features on both educator- and student-facing applications and APIs
 
@@ -139,7 +146,7 @@ Zoomi provides artificial intelligence as a service for eLearning. As a full-sta
             },
         ],
         description: `
-Club OS is a customized CRM platform for gyms and health centers. As a Front-end Engineer, I worked on a greenfield UI refresh.
+Club OS is a CRM platform for gyms and health centers. As a Front-end Engineer, I worked on a greenfield UI refresh.
 
 * Created a responsive front-end component library for all internal and external web applications
 
