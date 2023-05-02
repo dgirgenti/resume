@@ -11,7 +11,7 @@ export default [
         description: `
 Adobe is a software company known for its tools supporting media creation and publishing. As a UI Engineer within the collaboration experiences org, I developed components serving the cloud document ecosystem.
 
-* Engineered microfrontend UI solutions for browsing, management, and selection of cloud assets
+* Engineered microfrontend UI solutions seen by millions of users for browsing, management, and selection of cloud assets
 
 * Supported feature parity and integration with host clients such as Photoshop, Illustrator, XD, and Creative Cloud
 
@@ -41,30 +41,30 @@ Adobe is a software company known for its tools supporting media creation and pu
         url: 'https://urbn.com',
         positions: [
             {
-                name: 'Senior Software Engineer',
-                start: 'April 2019',
-                end: 'July 2022',
-            },
-            {
                 name: 'Software Engineer',
                 start: 'July 2017',
                 end: 'April 2019',
             },
+            {
+                name: 'Senior Software Engineer',
+                start: 'April 2019',
+                end: 'July 2022',
+            },
         ],
         description: `
-URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer at URBN, I architected, developed, and iterated on the white-label front-end eCommerce platform serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
+URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer at URBN, I architected, developed, and iterated on the white-label frontend eCommerce platform serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
 
 * Served as platform architecture engineer, design system architect, and technical lead
 
-* Architected and implemented core platform and UI features for a cutting-edge SSR Vue application from the ground up
+* Architected and developed core platform and UI features for a cutting-edge SSR Vue application serving millions of users
 
-* Supported team members with thoughtful code review, knowledge-sharing, mentorship, onboarding, and documentation
+* Supported a web team of 20+ engineers with thoughtful code review, knowledge-sharing, mentorship, onboarding, and documentation
 
 * Audited and optimized dataflows by coordinating solutions across the org (Mobile, Services, DevOps, Vendors)
 
 * Maintained top-tier performance metrics using the latest best practices and strict automated budgets
 
-* Ensured application resilience through unit/e2e testing, analytics, logging, and custom metrics gathering
+* Ensured application resilience and uptime through unit/e2e testing, analytics, logging, and custom metrics gathering
 
 * Confirmed feature business viability by implementing A/B or multivariate tests with trackable KPIs/OKRs
 
@@ -80,6 +80,7 @@ URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer 
             'Redux',
             'CSS',
             'SCSS',
+            'GraphQL',
             'Express',
             'Tornado',
             'Webpack',
@@ -113,11 +114,11 @@ Zoomi provides AI-as-a-service for eLearning. As a full-stack engineer, I took o
 
 * Led the design and implementation of an application solution to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
+* Interfaced with Fortune 500 clients, integration specialists, and academics to gather and refine platform requirements
+
 * Engineered features on both educator- and student-facing applications and APIs
 
 * Oversaw successful feature releases on the student-facing content application developed by offshore engineers/QA
-
-* Interfaced with Fortune 500 clients, integration specialists, and academics to gather and refine platform requirements
 
 * Implemented analytics gathering to capture user actions for the artificial intelligence service`,
         technologies: [
@@ -140,15 +141,15 @@ Zoomi provides AI-as-a-service for eLearning. As a full-stack engineer, I took o
         url: 'https://club-os.com',
         positions: [
             {
-                name: 'Front-end Engineer',
+                name: 'Frontend Engineer',
                 start: 'February 2016',
                 end: 'June 2016',
             },
         ],
         description: `
-Club OS is a CRM platform for gyms and health centers. As a Front-end Engineer, I worked on a greenfield UI refresh.
+Club OS is a CRM platform for gyms and health centers. As a Frontend Engineer, I worked on a greenfield UI refresh.
 
-* Created a responsive front-end component library for all internal and external web applications
+* Created a responsive frontend component library for all internal and external web applications
 
 * Beautified the CRM application by creating a shared library of UI components
 
@@ -221,15 +222,15 @@ Ticketleap is a DIY event ticketing service. I was a Full-stack Developer workin
             },
         ],
         description: `
-At Razorfish Health, a healthcare-focused design agency, I served as a front-end developer working on several projects.
+At Razorfish Health, a healthcare-focused design agency, I served as a frontend developer working on several projects.
 
 * Developed styling on two Webby Honoree sites
 
-* Implemented the front end of an application for one of the largest pharmacy benefit management organizations in the US
+* Implemented the frontend of an application for one of the largest pharmacy benefit management organizations in the US
 
 * Converted Photoshop and Fireworks designs into functional web applications
 
-* Created a bunch of HTML email templates for two of the largest pharmaceutical companies in the US`,
+* Created email templates for two of the largest pharmaceutical companies in the US`,
         technologies: [
             'HTML',
             'CSS',
@@ -242,32 +243,32 @@ At Razorfish Health, a healthcare-focused design agency, I served as a front-end
             'Redmine',
         ],
     },
-    {
-        name: 'Electronic Ink',
-        url: 'https://www.capgemini.com/us-en/service/invent/',
-        aside: '(now **Capgemini Invent**)',
-        positions: [
-            {
-                name: 'Technology Intern',
-                start: 'June 2007',
-                end: 'September 2007',
-            },
-        ],
-        description: `
-Electronic Ink, a design agency, brought me on for a summer internship and I was responsible for internal development tasks.
+//     {
+//         name: 'Electronic Ink',
+//         url: 'https://www.capgemini.com/us-en/service/invent/',
+//         aside: '(now **Capgemini Invent**)',
+//         positions: [
+//             {
+//                 name: 'Technology Intern',
+//                 start: 'June 2007',
+//                 end: 'September 2007',
+//             },
+//         ],
+//         description: `
+// Electronic Ink, a design agency, brought me on for a summer internship and I was responsible for internal development tasks.
 
-* Learned the fundamentals of web application development
+// * Learned the fundamentals of web application development
 
-* Created a web-based project scheduling and resource management application
+// * Created a web-based project scheduling and resource management application
 
-* Intern things`,
-        technologies: [
-            'XHTML',
-            'CSS',
-            'JavaScript',
-            'PHP',
-            'MySQL',
-            'SVN',
-        ],
-    },
+// * Intern things`,
+//         technologies: [
+//             'XHTML',
+//             'CSS',
+//             'JavaScript',
+//             'PHP',
+//             'MySQL',
+//             'SVN',
+//         ],
+//     },
 ];
