@@ -25,9 +25,7 @@
             </div>
 
             <section class="summary">
-                <p class="summary__body">
-                    {{ seo.description }}
-                </p>
+                <p class="summary__body" v-html="seo.description" />
             </section>
 
             <section>
@@ -58,6 +56,8 @@
 </template>
 
 <script>
+import marked from 'marked';
+
 import education from '~/assets/education';
 import jobs from '~/assets/jobs';
 import seo from '~/assets/seo';
@@ -72,7 +72,10 @@ export default {
     },
     data() {
         return {
-            seo,
+            seo: {
+                ...seo,
+                description: marked(seo.description),
+            },
             jobs,
             education,
         };

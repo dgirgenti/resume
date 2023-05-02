@@ -1,8 +1,10 @@
 /* eslint-disable max-len */
 export default {
     title: 'Dan Girgenti',
-    shortDesc: 'Bay Area-based software engineer, road cyclist, ultralight backpacker, and electronic musician',
-    description: 'Bay Area-based web engineer, road cyclist, ultralight backpacker, and electronic musician with a professional focus on beautiful, performant user experiences. I dig 4-space tabs and trailing commas. 👋',
+    shortDesc: 'Bay Area-based frontend software engineer',
+    description: `Engineer in the Bay Area with over 10 years of experience creating beautiful, performant user experiences on the web.
+
+Passionate about intuitive UIs, mentorship, cross-functional collaboration, developer experience, power user tooling, etc. 👋`,
     links: [
         {
             name: 'email',
