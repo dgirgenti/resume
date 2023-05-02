@@ -5,21 +5,28 @@
                 {{ position.name }}
             </h3>
 
-            <p class="position__dates">
-                {{ position.start }} &ndash; {{ position.end || 'present' }}
-            </p>
+            <Dates v-if="position.start && showDates" :start="position.start" :end="position.end" />
         </div>
     </div>
 </template>
 
 <script>
+import Dates from '~/components/Dates.vue';
+
 export default {
     name: 'Position',
+    components: {
+        Dates,
+    },
     props: {
         position: {
             type: Object,
             required: true,
         },
+        showDates: {
+            type: Boolean,
+            default: false,
+        }
     },
 };
 </script>
@@ -39,10 +46,6 @@ export default {
     &__name {
         margin-right: 15px;
         font-size: 1.05rem;
-    }
-
-    &__dates {
-        font-style: italic;
     }
 }
 

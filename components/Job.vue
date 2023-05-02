@@ -1,27 +1,31 @@
 <template>
     <div class="job">
-        <h3 class="job__name">
+        <div class="job__header">
+            <h3 class="job__name">
 
-            <a v-if="job.url" :href="job.url" class="o-link" target="_blank">
-                {{ job.name }}
-            </a>
+                <a v-if="job.url" :href="job.url" class="o-link" target="_blank">
+                    {{ job.name }}
+                </a>
 
-            <template v-else>
-                {{ job.name }}
-            </template>
+                <template v-else>
+                    {{ job.name }}
+                </template>
 
-            <span
-                v-if="asideHTML"
-                class="o-markdown job__aside"
-                v-html="asideHTML"> </span>
+                <span
+                    v-if="asideHTML"
+                    class="o-markdown job__aside"
+                    v-html="asideHTML"> </span>
 
-        </h3>
+            </h3>
+
+            <Dates v-if="dates.start" class="job__dates" :start="dates.start" :end="dates.end" />
+        </div>
 
         <ul class="job__positions">
 
-            <li v-for="position in job.positions" :key="position.start">
+            <li v-for="position in job.positions.toReversed()" :key="position.start">
 
-                <Position :position="position" />
+                <Position :position="position" :showDates="showPositionDates" />
 
             </li>
 
@@ -44,11 +48,13 @@
 <script>
 import marked from 'marked';
 
+import Dates from '~/components/Dates.vue';
 import Position from '~/components/Position.vue';
 
 export default {
     name: 'Job',
     components: {
+        Dates,
         Position,
     },
     props: {
@@ -61,8 +67,18 @@ export default {
         asideHTML() {
             return this.job.aside ? marked.inlineLexer(this.job.aside, {}) : null;
         },
+        dates() {
+            const { positions } = this.job;
+            return {
+                start: positions[0].start,
+                end: positions[positions.length - 1].end,
+            };
+        },
         descriptionHTML() {
             return this.job.description ? marked(this.job.description) : null;
+        },
+        showPositionDates() {
+            return this.job.positions.length > 1;
         },
         technologies() {
             return this.job.technologies ? this.job.technologies.join(', ') : null;
@@ -74,6 +90,12 @@ export default {
 <style lang="scss">
 .job {
     padding-bottom: 10px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     &__name {
         font-size: 1.3rem;
@@ -90,7 +112,7 @@ export default {
     }
 
     &__positions {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     &__tech-heading {
