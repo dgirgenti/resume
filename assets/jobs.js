@@ -9,8 +9,6 @@ export default [
             end: 'April 2023',
         }],
         description: `
-Adobe is a software company known for its tools supporting media creation and publishing. As a UI Engineer within the collaboration experiences org, I developed components serving the cloud document ecosystem.
-
 * Engineered microfrontend UI solutions seen by millions of users for browsing, management, and selection of cloud assets
 
 * Supported feature parity and integration with host clients such as Photoshop, Illustrator, XD, and Creative Cloud
@@ -21,13 +19,15 @@ Adobe is a software company known for its tools supporting media creation and pu
 
 * Refined feature UX expectations by coordinating with Product, Team Lead, and Engineers around the org
 
-* Disambiguated business feature requests into actionable engineering task requirements`,
+* Disambiguated business feature requests into actionable engineering task requirements
+`,
         technologies: [
-            'TypeScript',
             'JavaScript',
+            'TypeScript',
             'React',
             'MobX',
             'Webpack',
+            'Yarn Workspaces',
             'Node',
             'Jest',
             'Enzyme',
@@ -52,15 +52,19 @@ Adobe is a software company known for its tools supporting media creation and pu
             },
         ],
         description: `
-URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer at URBN, I architected, developed, and iterated on the white-label frontend eCommerce platform serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**.
+* Architected, developed, and iterated on the white-label eCommerce platform serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**
 
-* Served as platform architecture engineer, design system architect, and technical lead
+* Brought a cutting-edge SSR Vue application to millions of users as a core platform Architecture Engineer
 
-* Architected and developed core platform and UI features for a cutting-edge SSR Vue application serving millions of users
+* Delivered high-impact features to reduce customer friction as Tech Lead of a scrum team with 5 engineers
+
+* Kicked off a global UI/UX design system as UI Architect in collaboration with UX, brand designers, and a11y experts
+
+* Created, oversaw, or provided input towards the development of a library of globally-reusable UI components
 
 * Supported a web team of 20+ engineers with thoughtful code review, knowledge-sharing, mentorship, onboarding, and documentation
 
-* Audited and optimized dataflows by coordinating solutions across the org (Mobile, Services, DevOps, Vendors)
+* Audited and optimized dataflows by coordinating solutions with Mobile, Services, DevOps, Vendors, etc.
 
 * Maintained top-tier performance metrics using the latest best practices and strict automated budgets
 
@@ -68,15 +72,16 @@ URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer 
 
 * Confirmed feature business viability by implementing A/B or multivariate tests with trackable KPIs/OKRs
 
-* Planned epics/tickets with Product and Analysts by gathering, refining, and documenting technical requirements
-
-* Kicked off a global UI/UX design system in collaboration with UX, brand designers, and a11y experts`,
+* Planned epics/tickets with Product and Business Analysts by gathering, refining, and documenting technical requirements
+`,
         technologies: [
             'JavaScript',
+            'TypeScript',
             'Python',
             'Vue',
             'Vuex',
             'Pinia',
+            'Nuxt',
             'Redux',
             'CSS',
             'SCSS',
@@ -111,17 +116,16 @@ URBN is a lifestyle retailer with several distinct brands. As a Senior Engineer 
             },
         ],
         description: `
-Zoomi provides AI-as-a-service for eLearning. As a full-stack engineer, I took ownership of features from the UI to the cloud.
+* Engineered features on both educator- and student-facing applications and APIs of the eLearning platform
 
-* Led the design and implementation of an application solution to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
+* Led the design and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
+
+* Oversaw offshore engineers/QA for successful feature releases on the student-facing content application
 
 * Interfaced with Fortune 500 clients, integration specialists, and academics to gather and refine platform requirements
 
-* Engineered features on both educator- and student-facing applications and APIs
-
-* Oversaw successful feature releases on the student-facing content application developed by offshore engineers/QA
-
-* Implemented analytics gathering to capture user actions for the artificial intelligence service`,
+* Implemented analytics gathering to capture user actions for the artificial intelligence service
+`,
         technologies: [
             'Python',
             'Django',
@@ -148,7 +152,7 @@ Zoomi provides AI-as-a-service for eLearning. As a full-stack engineer, I took o
             },
         ],
         description: `
-Club OS is a CRM platform for gyms and health centers. As a Frontend Engineer, I worked on a greenfield UI refresh.
+* Completed a greenfield UI refresh for the primary CRM application targeted at gyms and health centers
 
 * Created a responsive frontend component library for all internal and external web applications
 
@@ -156,7 +160,8 @@ Club OS is a CRM platform for gyms and health centers. As a Frontend Engineer, I
 
 * Automated commonly-performed tasks to assist in engineers' daily productivity
 
-* Created and modified custom CRM forms, collaborating with internal and external stakeholders`,
+* Created and modified custom CRM forms, collaborating with internal and external stakeholders
+`,
         technologies: [
             'JavaScript',
             'Node',
@@ -184,17 +189,18 @@ Club OS is a CRM platform for gyms and health centers. As a Frontend Engineer, I
             },
         ],
         description: `
-Ticketleap is a DIY event ticketing service. I was a Full-stack Developer working on the front and back ends of the platform.
+* Developed both the front- and backend applications of the ticketing platform
 
-* Created the interface for the highest-traffic page on the platform, the event page
+* Created a brand new interface for the highest-traffic page on the platform
 
-* Designed, developed, and improved features on the Python/Django application
+* Designed, developed, and improved general features on the Python/Django application
 
 * Transformed Content/Marketing ideas into unique user experiences on the marketing site
 
-* Consulted with Product, QA, Design, UX, Customer Success, and other stakeholders to ensure business requirements
+* Collaborated with Product, QA, Design, UX, Customer Success, and other stakeholders to ensure business requirements
 
-* Performed a variety of platform maintenance, system administration, DevOps, and SEO implementation`,
+* Performed a variety of platform maintenance, system administration, DevOps, and SEO implementation
+`,
         technologies: [
             'Python',
             'Django',
@@ -223,15 +229,14 @@ Ticketleap is a DIY event ticketing service. I was a Full-stack Developer workin
             },
         ],
         description: `
-At Razorfish Health, a healthcare-focused design agency, I served as a frontend developer working on several projects.
-
-* Developed styling on two Webby Honoree sites
+* Developed the UI for two websites which won Webby awards
 
 * Implemented the frontend of an application for one of the largest pharmacy benefit management organizations in the US
 
 * Converted Photoshop and Fireworks designs into functional web applications
 
-* Created email templates for two of the largest pharmaceutical companies in the US`,
+* Created email templates for two of the largest pharmaceutical companies in the US
+`,
         technologies: [
             'HTML',
             'CSS',
@@ -262,7 +267,8 @@ At Razorfish Health, a healthcare-focused design agency, I served as a frontend 
 
 // * Created a web-based project scheduling and resource management application
 
-// * Intern things`,
+// * Intern things
+// `,
 //         technologies: [
 //             'XHTML',
 //             'CSS',
