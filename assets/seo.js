@@ -2,13 +2,13 @@
 export default {
     title: 'Dan Girgenti',
     shortDesc: 'Bay Area-based frontend software engineer',
-    description: `Engineer in the Bay Area with over 10 years of experience creating beautiful, performant user experiences on the web.
+    description: `Engineer in the Bay Area with over a decade's experience creating beautiful, performant user experiences on the web.
 
-Passionate about intuitive UIs, mentorship, cross-functional collaboration, developer experience, power user tooling, etc. 👋`,
+Passionate about intuitive UIs, specification, cross-functional collaboration, developer experience, tooling, mentorship, etc. 👋`,
     links: [
         {
             name: 'email',
-            href: 'mailto:dan.girgenti+resume@gmail.com',
+            href: 'mailto:dan.girgenti@gmail.com',
             print: 'dan.girgenti@gmail.com',
         },
         {

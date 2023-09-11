@@ -4,22 +4,24 @@ export default [
         name: 'Adobe Inc.',
         url: 'https://adobe.com',
         positions: [{
-            name: 'UI Software Development Engineer',
+            name: 'UI Engineer',
             start: 'August 2022',
             end: 'April 2023',
         }],
         description: `
-* Engineered microfrontend UI solutions seen by millions of users for browsing, management, and selection of cloud assets
+* Engineered microfrontend UI solutions for a userbase of over one billion to manage, browse, and collaborate on cloud assets
 
-* Supported feature parity and integration with host clients such as Photoshop, Illustrator, XD, and Creative Cloud
+* Supported feature parity and integration with host clients such as Photoshop, Assets Web, Creative Cloud, Illustrator, and XD
+
+* Refined feature UX expectations by coordinating with Product, team leads, and engineers across the organization
+
+* Provided solutions for introducing modern components to live within or alongside a highly complex, mature React codebase
 
 * Evangelized team culture around a consensus-based approach to maintaining best practices and coding standards
 
 * Advocated for improved developer workflows and quality-of-life by identifying gaps in engineering processes
 
-* Refined feature UX expectations by coordinating with Product, Team Lead, and Engineers around the org
-
-* Disambiguated business feature requests into actionable engineering task requirements
+* Disambiguated vague business feature requests into actionable engineering task requirements
 `,
         technologies: [
             'JavaScript',
@@ -31,8 +33,6 @@ export default [
             'Node',
             'Jest',
             'Enzyme',
-            'Git',
-            'Jira',
         ]
     },
     {
@@ -52,54 +52,55 @@ export default [
             },
         ],
         description: `
-* Architected, developed, and iterated on the white-label eCommerce platform serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, and **<a href="https://freepeople.com/" target="_blank">Free People</a>**
+* Architected and developed the multi-tenant eCommerce platform serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, **<a href="https://freepeople.com/" target="_blank">Free People</a>**
 
-* Brought a cutting-edge SSR Vue application to millions of users as a core platform Architecture Engineer
+* Brought a cutting-edge, highly performant shopping experience to millions of users as a core platform engineer
 
-* Delivered high-impact features to reduce customer friction as Tech Lead of a scrum team with 5 engineers
+* Led a team of five engineers delivering high-impact features on nearly all shopping, account management, and marketing flows
 
-* Kicked off a global UI/UX design system as UI Architect in collaboration with UX, brand designers, and a11y experts
+* Substantially reduced Help Center contact volume with a modern, passwordless login experience
 
-* Created, oversaw, or provided input towards the development of a library of globally-reusable UI components
+* Kicked off a global design system as UI Architect in close collaboration with UX, brand designers, and a11y experts
 
-* Supported a web team of 20+ engineers with thoughtful code review, knowledge-sharing, mentorship, onboarding, and documentation
+* Created, oversaw, or provided input toward the development of a library of globally reusable UI components
 
-* Audited and optimized dataflows by coordinating solutions with Mobile, Services, DevOps, Vendors, etc.
+* Supported a team of 20+ engineers with mentorship, knowledge-sharing, onboarding, documentation, and thoughtful code review
 
-* Maintained top-tier performance metrics using the latest best practices and strict automated budgets
+* Maintained top-tier performance metrics following the latest best practices and using strict automated budgets
 
-* Ensured application resilience and uptime through unit/e2e testing, analytics, logging, and custom metrics gathering
+* Confirmed feature business viability by implementing A/B or multivariate experimentation with highly-trackable KPIs
 
-* Confirmed feature business viability by implementing A/B or multivariate tests with trackable KPIs/OKRs
+* Ensured application resilience and uptime through unit/e2e testing, analytics, logging, and custom metrics solutions
 
-* Planned epics/tickets with Product and Business Analysts by gathering, refining, and documenting technical requirements
+* Audited and optimized data flows by coordinating solutions with teams such as Mobile Apps, Services, DevOps, Vendors
+
+* Planned epics/tickets with Product and business analysts by gathering, refining, and documenting technical requirements
 `,
         technologies: [
             'JavaScript',
             'TypeScript',
             'Python',
+            'SSR',
             'Vue',
             'Vuex',
             'Pinia',
-            'Nuxt',
             'Redux',
+            'Nuxt',
             'CSS',
             'SCSS',
             'GraphQL',
-            'axios',
+            'Axios',
             'Express',
             'Tornado',
             'Webpack',
             'Node',
             'NGINX',
             'Docker',
+            'Memcached',
             'Jest',
             'Sentry',
             'Jenkins',
-            'Core Web Vitals',
-            'WCAG 2.1 AA',
-            'Git',
-            'Jira',
+            'WCAG',
             'Lighthouse',
             'Storybook',
             'Contentful',
@@ -116,7 +117,7 @@ export default [
             },
         ],
         description: `
-* Engineered features on both educator- and student-facing applications and APIs of the eLearning platform
+* Engineered features on both educator- and student-facing applications and APIs of an AI-backed eLearning platform
 
 * Led the design and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
@@ -136,8 +137,6 @@ export default [
             'Backbone',
             'Webpack',
             'Gulp',
-            'Git',
-            'Jira',
             'SCORM',
         ],
     },
@@ -158,7 +157,7 @@ export default [
 
 * Beautified the CRM application by creating a shared library of UI components
 
-* Automated commonly-performed tasks to assist in engineers' daily productivity
+* Automated commonly performed tasks to assist in engineers' daily productivity
 
 * Created and modified custom CRM forms, collaborating with internal and external stakeholders
 `,
@@ -174,8 +173,6 @@ export default [
             'JSP',
             'JSTL',
             'Jekyll',
-            'Git',
-            'Jira',
         ],
     },
     {
@@ -189,15 +186,13 @@ export default [
             },
         ],
         description: `
-* Developed both the front- and backend applications of the ticketing platform
+* Designed, developed, and improved general features on both the front- and backend applications of the ticketing platform
 
-* Created a brand new interface for the highest-traffic page on the platform
-
-* Designed, developed, and improved general features on the Python/Django application
+* Created a net-new interface for the highest-traffic page on the platform
 
 * Transformed Content/Marketing ideas into unique user experiences on the marketing site
 
-* Collaborated with Product, QA, Design, UX, Customer Success, and other stakeholders to ensure business requirements
+* Collaborated with Product, QA, Design, Customer Success, and other stakeholders to ensure business requirements were met
 
 * Performed a variety of platform maintenance, system administration, DevOps, and SEO implementation
 `,
@@ -210,12 +205,10 @@ export default [
             'CSS',
             'SCSS',
             'Require.js',
+            'MySQL',
             'Grunt',
             'Jekyll',
-            'Git',
-            'Jira',
             'Litmus',
-            'MySQL',
         ],
     },
     {
@@ -231,9 +224,9 @@ export default [
         description: `
 * Developed the UI for two websites which won Webby awards
 
-* Implemented the frontend of an application for one of the largest pharmacy benefit management organizations in the US
+* Implemented the frontend of a brochure site for one of the largest pharmacy benefit management organizations in the US
 
-* Converted Photoshop and Fireworks designs into functional web applications
+* Coordinated with Designers and Project Managers to converted Photoshop and Fireworks designs into functional web applications
 
 * Created email templates for two of the largest pharmaceutical companies in the US
 `,
