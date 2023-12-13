@@ -4,7 +4,7 @@ export default {
     shortDesc: 'Bay Area-based frontend software engineer',
     description: `Engineer in the Bay Area with over a decade's experience creating beautiful, performant user experiences on the web.
 
-Passionate about intuitive UIs, specification, cross-functional collaboration, developer experience, tooling, mentorship, etc. 👋`,
+Passionate about intuitive UIs, state management, cross-functional collaboration, developer experience, tooling, mentorship, etc. 👋`,
     links: [
         {
             name: 'email',
