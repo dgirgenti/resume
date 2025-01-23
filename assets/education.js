@@ -4,7 +4,10 @@ export default {
     url: 'https://drexel.edu',
     positions: [
         {
-            name: 'Bachelor of Science, BS in Software Engineering',
+            name: 'Minors in Computer Science, Philosophy, and Biology',
+        },
+        {
+            name: 'Bachelor of Science (BS) in Software Engineering',
         },
     ],
 };

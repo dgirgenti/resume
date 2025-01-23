@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 export default [
     {
         name: 'Marriott',
@@ -43,6 +42,7 @@ export default [
         ]
     },
     {
+        name: 'Adobe',
         url: 'https://adobe.com',
         positions: [{
             name: 'UI Engineer',
@@ -50,19 +50,15 @@ export default [
             end: 'April 2023',
         }],
         description: `
-* Engineered microfrontend UI solutions for a userbase of over one billion to manage, browse, and collaborate on cloud assets
+* Engineered UI solutions spanning the product line with over 1 billion users to manage, browse, and collaborate on cloud assets
 
-* Supported feature parity and integration with host clients such as Photoshop, Assets Web, Creative Cloud, Illustrator, and XD
+* Integrated microfrontend experiences into host apps such as Photoshop, Illustrator, Assets Web, and Creative Cloud Desktop
 
-* Refined feature UX expectations by coordinating with Product, team leads, and engineers across the organization
+* Modernized the codebase with functional React patterns and by deprecating legacy class components
 
-* Provided solutions for introducing modern components to live within or alongside a highly complex, mature React codebase
+* Disambiguated vague business feature requests from Product into actionable engineering story task requirements
 
 * Evangelized team culture around a consensus-based approach to maintaining best practices and coding standards
-
-* Advocated for improved developer workflows and quality-of-life by identifying gaps in engineering processes
-
-* Disambiguated vague business feature requests into actionable engineering task requirements
 `,
         technologies: [
             'JavaScript',
@@ -77,9 +73,8 @@ export default [
         ]
     },
     {
-        name: 'Urban Outfitters, Inc.',
-        aside: '(URBN)',
-        url: 'https://urbn.com',
+        name: 'Urban Outfitters',
+        url: 'https://www.urbn.com/our-brands',
         positions: [
             {
                 name: 'Software Engineer',
@@ -93,41 +88,31 @@ export default [
             },
         ],
         description: `
-* Architected and developed the multi-tenant eCommerce platform serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, **<a href="https://freepeople.com/" target="_blank">Free People</a>**
+* Architected parts of the multitenant eCommerce platform now serving **<a href="https://urbanoutfitters.com" target="_blank">Urban Outfitters</a>**, **<a href="https://anthropologie.com" target="_blank">Anthropologie</a>**, **<a href="https://freepeople.com/" target="_blank">Free People</a>**, and **<a href="https://shopterrain.com/" target="_blank">Terrain</a>** during an iterative greenfield replatform to SSR Vue
 
-* Brought a cutting-edge, highly performant shopping experience to millions of users as a core platform engineer
+* Brought a cutting-edge, highly performant shopping experience to over 25 million monthly users as a core platform engineer
 
-* Led a team of five engineers delivering high-impact features on nearly all shopping, account management, and marketing flows
+* Led a team of 5 engineers delivering features for the entire shopping funnel, account management, and order history
 
-* Substantially reduced Help Center contact volume with a modern, passwordless login experience
+* Eliminated password-related customer support requests with a robust 2-factor login experience
 
-* Kicked off a global design system as UI Architect in close collaboration with UX, brand designers, and a11y experts
+* Achieved and maintained top-tier performance metrics following the latest best practices and using strict automated budgets
 
-* Created, oversaw, or provided input toward the development of a library of globally reusable UI components
+* Kicked off a global design system as UI Architect in close collaboration with UX, brand designers, and a11y consultants
 
-* Supported a team of 20+ engineers with mentorship, knowledge-sharing, onboarding, documentation, and thoughtful code review
+* Confirmed feature business viability by implementing platform-level A/B and multivariate experimentation
 
-* Maintained top-tier performance metrics following the latest best practices and using strict automated budgets
-
-* Confirmed feature business viability by implementing A/B or multivariate experimentation with highly-trackable KPIs
-
-* Ensured application resilience and uptime through unit/e2e testing, analytics, logging, and custom metrics solutions
-
-* Audited and optimized data flows by coordinating solutions with teams such as Mobile Apps, Services, DevOps, Vendors
-
-* Planned epics/tickets with Product and business analysts by gathering, refining, and documenting technical requirements
+* Educated colleagues on things like idiomatic JS, regex, bash, and advanced git through an org-wide mentorship program
 `,
         technologies: [
             'JavaScript',
             'TypeScript',
             'Python',
-            'SSR',
             'Vue',
             'Vuex',
             'Pinia',
             'Redux',
             'Nuxt',
-            'CSS',
             'SCSS',
             'GraphQL',
             'Axios',
@@ -139,7 +124,9 @@ export default [
             'Docker',
             'Memcached',
             'Jest',
+            'MSW',
             'Sentry',
+            'New Relic',
             'Jenkins',
             'WCAG',
             'Lighthouse',
@@ -158,7 +145,7 @@ export default [
             },
         ],
         description: `
-* Engineered features on both educator- and student-facing applications and APIs of an AI-backed eLearning platform
+* Engineered full-stack features on both educator and student-facing applications of an AI-backed eLearning platform
 
 * Led the design and implementation of an application to ingest, store, and manage large-filesize content and media from a diverse ecosystem of client material
 
@@ -166,18 +153,19 @@ export default [
 
 * Interfaced with Fortune 500 clients, integration specialists, and academics to gather and refine platform requirements
 
-* Implemented analytics gathering to capture user actions for the artificial intelligence service
+* Implemented detailed custom analytics gathering to capture all user actions to feed the artificial intelligence service
 `,
         technologies: [
             'Python',
             'Django',
-            'AWS',
+            'JavaScript',
+            'Backbone.js',
+            'Gulp',
+            'Webpack',
+            'Node',
             'Docker',
             'NGINX',
-            'JavaScript',
-            'Backbone',
-            'Webpack',
-            'Gulp',
+            'AWS',
             'SCORM',
         ],
     },
@@ -192,27 +180,24 @@ export default [
             },
         ],
         description: `
-* Completed a greenfield UI refresh for the primary CRM application targeted at gyms and health centers
+* Completed a greenfield UI refresh for the CRM application serving some of the largest gym and health facilities in the US
 
-* Created a responsive frontend component library for all internal and external web applications
-
-* Beautified the CRM application by creating a shared library of UI components
+* Created a responsive frontend component library for all internal and product web applications
 
 * Automated commonly performed tasks to assist in engineers' daily productivity
 
-* Created and modified custom CRM forms, collaborating with internal and external stakeholders
+* Created and modified custom CRM experiences, collaborating with internal and external stakeholders
 `,
         technologies: [
             'JavaScript',
-            'Node',
             'Gulp',
-            'HTML',
             'CSS',
             'SCSS',
-            'Travis CI',
+            'Node',
             'Java',
             'JSP',
             'JSTL',
+            'Travis CI',
             'Jekyll',
         ],
     },
@@ -227,29 +212,27 @@ export default [
             },
         ],
         description: `
-* Designed, developed, and improved general features on both the front- and backend applications of the ticketing platform
+* Designed, developed, and improved features on both the front and backend applications of the ticketing platform
 
-* Created a net-new interface for the highest-traffic page on the platform
+* Engineered a greenfield responsive UI for the highest-traffic page on the platform, the event page
 
-* Transformed Content/Marketing ideas into unique user experiences on the marketing site
+* Transformed Content/Marketing ideas into unique user experiences on the blog and marketing sites
 
 * Collaborated with Product, QA, Design, Customer Success, and other stakeholders to ensure business requirements were met
 
-* Performed a variety of platform maintenance, system administration, DevOps, and SEO implementation
+* Performed a variety of tasks including platform maintenance, system administration, DevOps, and SEO implementation
 `,
         technologies: [
             'Python',
             'Django',
-            'AWS (S3, EC2, ELB, SNS)',
             'JavaScript',
             'jQuery',
-            'CSS',
-            'SCSS',
             'Require.js',
-            'MySQL',
-            'Grunt',
+            'SCSS',
             'Jekyll',
-            'Litmus',
+            'Grunt',
+            'MySQL',
+            'AWS',
         ],
     },
     {
@@ -283,33 +266,33 @@ export default [
             'Redmine',
         ],
     },
-//     {
-//         name: 'Electronic Ink',
-//         url: 'https://www.capgemini.com/us-en/service/invent/',
-//         aside: '(now **Capgemini Invent**)',
-//         positions: [
-//             {
-//                 name: 'Technology Intern',
-//                 start: 'June 2007',
-//                 end: 'September 2007',
-//             },
-//         ],
-//         description: `
-// Electronic Ink, a design agency, brought me on for a summer internship and I was responsible for internal development tasks.
+    //     {
+    //         name: 'Electronic Ink',
+    //         url: 'https://www.capgemini.com/us-en/service/invent/',
+    //         aside: '(now **Capgemini Invent**)',
+    //         positions: [
+    //             {
+    //                 name: 'Technology Intern',
+    //                 start: 'June 2007',
+    //                 end: 'September 2007',
+    //             },
+    //         ],
+    //         description: `
+    // Electronic Ink, a design agency, brought me on for a summer internship and I was responsible for internal development tasks.
 
-// * Learned the fundamentals of web application development
+    // * Learned the fundamentals of web application development
 
-// * Created a web-based project scheduling and resource management application
+    // * Created a web-based project scheduling and resource management application
 
-// * Intern things
-// `,
-//         technologies: [
-//             'XHTML',
-//             'CSS',
-//             'JavaScript',
-//             'PHP',
-//             'MySQL',
-//             'SVN',
-//         ],
-//     },
+    // * Intern things
+    // `,
+    //         technologies: [
+    //             'XHTML',
+    //             'CSS',
+    //             'JavaScript',
+    //             'PHP',
+    //             'MySQL',
+    //             'SVN',
+    //         ],
+    //     },
 ];

@@ -2,9 +2,7 @@
 export default {
     title: 'Dan Girgenti',
     shortDesc: 'Bay Area-based frontend software engineer',
-    description: `Engineer in the Bay Area with over a decade's experience creating beautiful, performant user experiences on the web.
-
-Passionate about intuitive UIs, state management, cross-functional collaboration, developer experience, tooling, mentorship, etc. 👋`,
+    description: `Hey! I\'m a product-focused software engineer building beautiful, performant experiences on the web. I care deeply about crafting intuitive UIs and the platforms on which they run. You'll find me throughout the SDLC solutioning with engineers and non-engineers alike, improving developer experience, and sharing knowledge! 👋`,
     links: [
         {
             name: 'email',
@@ -16,10 +14,10 @@ Passionate about intuitive UIs, state management, cross-functional collaboration
             href: 'https://linkedin.com/in/dgirgenti',
             print: 'linkedin.com/in/dgirgenti',
         },
-        {
-            name: 'github',
-            href: 'https://github.com/dgirgenti',
-            print: '@dgirgenti',
-        }
+        // {
+        //     name: 'github',
+        //     href: 'https://github.com/dgirgenti',
+        //     print: '@dgirgenti',
+        // }
     ],
 };
