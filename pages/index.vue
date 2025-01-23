@@ -20,7 +20,7 @@
                         v-for="link in seo.links"
                         :key="link.href"
                         :href="link.href"
-                        class="links__link links__link--print">{{ link.name }}: {{ link.print }}</a>
+                        class="links__link links__link--print">{{ link.print }}</a>
                 </section>
             </div>
 
@@ -153,7 +153,7 @@ export default {
 
     .title {
         display: inline;
-        font-size: 1.2rem;
+        // font-size: 1.2rem;
     }
 
     .links {
@@ -170,7 +170,7 @@ export default {
         margin-bottom: 0;
 
         &__body {
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
     }
 }

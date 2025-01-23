@@ -127,7 +127,7 @@ export default {
         &__description {
             li {
                 p {
-                    margin-bottom: 5px;
+                    margin-bottom: 6px;
                 }
             }
         }
