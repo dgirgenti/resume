@@ -1,7 +1,48 @@
 /* eslint-disable max-len */
 export default [
     {
-        name: 'Adobe Inc.',
+        name: 'Marriott',
+        url: 'https://marriott.com',
+        positions: [{
+            name: 'Senior Software Engineer',
+            start: 'February 2024',
+        }],
+        description: `
+* Lead frontend development of the headless whitelabel homepage of **<a href="https://marriott.com/default.mi" target="_blank">Marriott.com</a>**, used by over 200 million Bonvoy members
+
+* Work hand-in-hand with Product to drive technical strategy, assess development risks, and align on quarterly roadmaps
+
+* Represent the only fully-in-house web squad in discussion with Engineering, Product, and UX leadership
+
+* Implement universal composable components and integrate them into several applications, e.g. header/footer with variants
+
+* Pair on and provide thoughtful iterative code reviews for all frontend development from the team
+
+* Establish and propagate new standards to steer the direction of code quality for a monorepo with hundreds of contributors
+
+* Continually tune performance, such as taking 350+ kb off the bundle, 5+ seconds off paint times, and eliminating layout shift
+
+* Optimize the engineer onboarding process by filling gaps in documentation and improving day-to-day developer experience
+`,
+        technologies: [
+            'JavaScript',
+            'TypeScript',
+            'React',
+            'Zustand',
+            'Next.js',
+            'GraphQL',
+            'Nx',
+            'Node',
+            'Jest',
+            'React Testing Library',
+            'Jenkins',
+            'Kubernetes',
+            'WCAG',
+            'Storybook',
+            'Adobe Experience Manager',
+        ]
+    },
+    {
         url: 'https://adobe.com',
         positions: [{
             name: 'UI Engineer',
