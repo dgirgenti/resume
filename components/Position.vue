@@ -46,7 +46,6 @@ export default {
     &__name {
         margin-right: 15px;
         font-size: 1.05rem;
-        font-style: italic;
     }
 }
 

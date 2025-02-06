@@ -7,17 +7,17 @@ export default [
             start: 'February 2024',
         }],
         description: `
-* Lead frontend development of the headless whitelabel homepage of **<a href="https://marriott.com/default.mi" target="_blank">Marriott.com</a>**, used by over 200 million Bonvoy members
+* Lead frontend development of the headless whitelabel **<a href="https://marriott.com/default.mi" target="_blank">Marriott.com</a>** homepage, used by over 200 million Bonvoy members
 
-* Work hand-in-hand with Product to drive technical strategy, assess development risks, and align on quarterly roadmaps
+* Drive technical strategy, assess engineering risks, and align on delivery requirements working hand-in-hand with Product and UX
 
-* Represent the only fully-in-house web squad in discussion with Engineering, Product, and UX leadership
+* Represent the only fully-in-house web squad in cross-team discussions with Engineering, Product, and UX leadership
 
-* Implement universal composable components and integrate them into several applications, e.g. header/footer with variants
+* Implement composable global UI components and facilitate successfully integrating them into sibling team applications
 
-* Pair on and provide thoughtful iterative code reviews for all frontend development from the team
+* Pair frequently, provide in-flight commentary, and give thoughtful iterative code reviews for all frontend work
 
-* Establish and propagate new standards to steer the direction of code quality for a monorepo with hundreds of contributors
+* Steer better code quality for a monorepo with hundreds of contributors by establishing and propagating new standards
 
 * Continually tune performance, such as taking 350+ kb off the bundle, 5+ seconds off paint times, and eliminating layout shift
 
@@ -250,7 +250,7 @@ export default [
 
 * Implemented the frontend of a brochure site for one of the largest pharmacy benefit management organizations in the US
 
-* Coordinated with Designers and Project Managers to converted Photoshop and Fireworks designs into functional web applications
+* Coordinated with Designers and Project Managers to convert Photoshop and Fireworks designs into functional web applications
 
 * Created email templates for two of the largest pharmaceutical companies in the US
 `,
